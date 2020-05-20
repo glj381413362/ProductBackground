@@ -1,0 +1,90 @@
+/* ---头部--- */
+.shopping-car {
+    width: 70%;
+    margin: auto;
+}
+/* ---修改默认收货地址--- */
+.clearfloat{
+    clear: both;
+}
+.default-address{
+    width: 30%;
+    margin: 90px auto 160px;
+    text-align: center;
+}
+.default-address input{
+    border-width: 0;
+    width: 100%;
+}
+.default-address .address-word{
+    margin-bottom: 45px;
+}
+
+.default-address .default-address-row{
+    height: 45px;
+    text-align: left;
+    display: flex;
+    margin-bottom: 40px;
+}
+.default-address-row .part{
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    flex:1;
+}
+.mar-ringht20{
+    margin-right: 20px;
+}
+/* ---省份 市区--- */
+.province .province-detail,.city .city-detail{
+    display: flex;
+}
+.province .province-detail{
+    background: transparent;
+    z-index: 99;
+}
+.province .province-detail p,.city .city-detail p{
+    flex: 1;
+}
+.province .province-detail p,.city .city-detail input{
+    flex: 1;
+}
+/* ---确认 返回--- */
+.default-address .confirm{
+    height: 40px;
+    background: #000;
+    line-height: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.default-address span{
+    cursor: pointer;
+}
+@media (max-width: 1200px) {
+    .default-address{
+        width: 40%;
+    }
+}
+@media (max-width: 960px) {
+    /* ---头部--- */
+    .shopping-car {
+        width: 88%;
+        margin: auto;
+    }
+    .default-address{
+        width: 45%;
+    }
+}
+/* ---移动端样式--- */
+@media (max-width:767px){
+    /* ---头部--- */
+    .shopping-car {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .default-address{
+        margin:131px auto 0;
+        width: 100%;
+        padding: 0 30px;
+    }
+}

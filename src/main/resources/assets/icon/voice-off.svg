@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>voice/off</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页_太阳码" transform="translate(-291.000000, -2184.000000)">
+            <g id="voice/off" transform="translate(291.000000, 2184.000000)">
+                <g id="Group-11">
+                    <path d="M30,15 C30,23.284 23.284,30 15,30 C6.716,30 0,23.284 0,15 C0,6.716 6.716,0 15,0 C23.284,0 30,6.716 30,15" id="Fill-9" fill="#000000" opacity="0.5"></path>
+                    <path d="M10,12 L7,12 C6.448,12 6,12.447 6,13 L6,17 C6,17.553 6.448,18 7,18 L10,18 L14.36,21.633 C15.011,22.176 16,21.713 16,20.865 L16,9.135 C16,8.287 15.011,7.824 14.36,8.367 L10,12 Z" id="Fill-11" fill="#FFFFFF"></path>
+                    <path d="M22.207,15 L23.975,13.232 C24.17,13.037 24.17,12.721 23.975,12.525 C23.779,12.33 23.463,12.33 23.268,12.525 L21.5,14.293 L19.732,12.525 C19.537,12.33 19.22,12.33 19.025,12.525 C18.83,12.721 18.83,13.037 19.025,13.232 L20.793,15 L19.025,16.768 C18.83,16.963 18.83,17.279 19.025,17.475 C19.22,17.67 19.537,17.67 19.732,17.475 L21.5,15.707 L23.268,17.475 C23.463,17.67 23.779,17.67 23.975,17.475 C24.17,17.279 24.17,16.963 23.975,16.768 L22.207,15 Z" id="Fill-13" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

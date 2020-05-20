@@ -1,0 +1,184 @@
+.od-mask::before {
+    content: '';
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    opacity: 0.5;
+    z-index: 101;
+}
+
+.shopping-car {
+    width: 70%;
+    margin: auto;
+}
+
+.qrCode {
+    display: flex;
+    justify-content: center;
+}
+
+.sc-detail-gopay {
+    width: 180px;
+    height: 40px;
+    background-color: #000000;
+}
+
+.sc-detail-resetsend {
+    width: 180px;
+    height: 40px;
+    background-color: #000000;
+}
+
+.sc-detail-refund {
+    width: 180px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.sc-detail-status img {
+    width: 160px;
+    height: 160px;
+    margin: auto;
+}
+
+.sc-detail-payinfo {
+    border: 1px solid #e8e8e8;
+    padding: 20px 20px 20px 30px;
+    margin: 50px 0 50px 0;
+}
+
+.sc-detail-payinfoid {
+    border-left: 1px solid #e8e8e8;
+}
+
+.sc-self-fetch-info {
+    margin-top: 90px;
+}
+
+.sc-list-img {
+    width: 75px;
+    height: 100px;
+}
+
+.sc-detail-commoditytitle {
+    padding: 7px 0;
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sc-detail-paymoney {
+    margin-top: -5px;
+}
+
+.od-refundbtn {
+    width: 180px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.sc-detail-confirmbtn {
+    width: 100%;
+    background-color: #000000;
+}
+
+.sc-detail-confirmbtn {
+    width: 100%;
+    background-color: #000000;
+}
+
+.sc-detail-confirmdelivery {
+    width: 100%;
+    background-color: #000000;
+}
+
+.applyserver {
+    position: relative;
+    top: 17px;
+}
+
+.applyserverudline {
+    position: absolute;
+    top: 45px;
+    right: 15px;
+
+}
+
+hr {
+    margin: 10px 0 8px 0;
+}
+
+@media (max-width: 1024px) {
+    .sc-detail-commoditytitle {
+        width: 150px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 767px) {
+    .shopping-car {
+        width: 100%;
+    }
+
+    /*.sc-detail-status {*/
+    /*margin-top: 80px;*/
+    /*}*/
+    .sc-detail-payinfoid {
+        border: none;
+    }
+
+    .sc-detail-commoditytitle {
+        padding: 5px 0;
+        width: 220px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .ready-delivery {
+        padding: 10px 0;
+    }
+
+    .sc-detail-expressstate {
+        border-left: 1px solid #000000;
+    }
+
+    .sc-detail-expressstate li {
+        width: 15px;
+        height: 20px;
+        float: left;
+        position: relative;
+        left: -4px;
+        top: 15px;
+    }
+
+    .sc-detail-allshow {
+        margin-left: 20px;
+        text-decoration: underline;
+        color: #000000;
+    }
+
+    .sc-order-totalpriceudline {
+        position: relative;
+        top: 55px;
+        left: 0px;
+    }
+
+    .applyserverudline {
+        position: absolute;
+        top: -8px;
+        right: 15px;
+    }
+    .od-mb-server{
+        position: absolute;
+        bottom: 0;
+        right: 15px;
+    }
+
+}

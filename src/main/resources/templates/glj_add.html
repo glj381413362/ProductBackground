@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport"
+          content="user-scalable=no, width=device-width, minimum-scale=1, maximum-scale=1">
+
+    <title>静态文件管理</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/layui.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="layui.all.js"></script>
+    <style type="text/css">
+        .wa {
+            width: 100%;
+        }
+
+        .layui-form-label {
+            width: 90px;
+        }
+    </style>
+
+</head>
+
+<body>
+<div id="header"></div>
+
+<div class="content why-hilo">
+    <h2>添加商品</h2>
+
+    <p class="info">
+
+    <form action="addItem" method="post">
+        <div class="layui-row">
+            <div class="layui-col-md3">
+                <!--上传图片-->
+                <div class="layui-form-item">
+                    <label class="layui-form-label">静态模板</label>
+                    <div class="layui-input-block">
+                        <select name="templateName" lay-verify="required">
+                            <option value="jfinal_item">618模板</option>
+                            <option value="jfinal_item">双十一模板</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="layui-col-md3">
+                <!--上传图片-->
+                <div class="layui-form-item">
+                    <label class="layui-form-label">类别</label>
+                    <div class="layui-input-block">
+                        <select name="category" lay-verify="required">
+                            <option value="jfinal_item">A</option>
+                            <option value="jfinal_item">B</option>
+                            <option value="jfinal_item">C</option>
+                            <option value="jfinal_item">D</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">标题</label>
+            <div class="layui-input-block">
+                <input type="text" name="title" required lay-verify="required" placeholder="请输入商品名称" autocomplete="off"
+                       class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item layui-form-text">
+            <label class="layui-form-label">商品描述</label>
+            <div class="layui-input-block">
+                <textarea name="content" placeholder="请输入内容" class="layui-textarea"></textarea>
+            </div>
+        </div>
+        <div class="layui-form-item">
+
+            <label class="layui-form-label">注意事项</label>
+            <div class="layui-input-block">
+                <input type="text" name="notes" required lay-verify="required" placeholder="请输入注意事项" autocomplete="off"
+                       class="layui-input">
+            </div>
+
+        </div>
+        <div class="layui-form-item">
+
+            <label class="layui-form-label">面料</label>
+            <div class="layui-input-block">
+                <input type="text" name="fabric" required lay-verify="required" placeholder="请输入面料" autocomplete="off"
+                       class="layui-input">
+            </div>
+        </div>
+
+        <br/>
+        <div class="layui-row">
+            <div class="layui-col-md3">
+                <!--上传图片-->
+                <div class="layui-form-item">
+                    <label class="layui-form-label">主图</label>
+                    <div class="layui-input-block">
+                        <select name="mainFigure" lay-verify="required">
+                            <option value=""></option>
+                            <option value="assets/img/product-detail-01(main).png">主图</option>
+                            <option value="assets/img/product-detail-02.png">详细图01</option>
+                            <option value="assets/img/product-detail-03.png">详细图02</option>
+                            <option value="assets/img/product-detail-04.png">详细图03</option>
+                            <option value="assets/img/product-detail-05.png">详细图04</option>
+                            <option value="assets/img/product-detail-06.png">详细图05</option>
+                            <option value="assets/img/product1.png">详细图06</option>
+                            <option value="assets/img/product2.png">详细图07</option>
+                            <option value="assets/img/product3.png">详细图08</option>
+                            <option value="assets/img/pd-recommend01.png">详细图09</option>
+                            <option value="assets/img/pd-recommend02.png">详细图10</option>
+                            <option value="assets/img/pd-recommend03.png">详细图11</option>
+                            <option value="assets/img/product-list/01.jpg">列表图01</option>
+                            <option value="assets/img/product-list/02.jpg">详细图02</option>
+                            <option value="assets/img/product-list/03.jpg">详细图03</option>
+                            <option value="assets/img/product-list/04.jpg">详细图04</option>
+                            <option value="assets/img/product-list/05.jpg">详细图05</option>
+                            <option value="assets/img/product-list/06.jpg">详细图06</option>
+                            <option value="assets/img/product-list/07.jpg">详细图07</option>
+                            <option value="assets/img/product-list/08.jpg">详细图08</option>
+                            <option value="assets/img/product-list/09.jpg">详细图09</option>
+                            <option value="assets/img/product-list/10.jpg">详细图10</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="layui-col-md3">
+                <!--上传图片-->
+                <div class="layui-form-item">
+                    <label class="layui-form-label">详情图一</label>
+                    <div class="layui-input-block">
+                        <select name="detailsFigure1">
+                            <option value=""></option>
+                            <option value="assets/img/product-detail-01(main).png">主图</option>
+                            <option value="assets/img/product-detail-02.png">详细图01</option>
+                            <option value="assets/img/product-detail-03.png">详细图02</option>
+                            <option value="assets/img/product-detail-04.png">详细图03</option>
+                            <option value="assets/img/product-detail-05.png">详细图04</option>
+                            <option value="assets/img/product-detail-06.png">详细图05</option>
+                            <option value="assets/img/product1.png">详细图06</option>
+                            <option value="assets/img/product2.png">详细图07</option>
+                            <option value="assets/img/product3.png">详细图08</option>
+                            <option value="assets/img/pd-recommend01.png">详细图09</option>
+                            <option value="assets/img/pd-recommend02.png">详细图10</option>
+                            <option value="assets/img/pd-recommend03.png">详细图11</option>
+                            <option value="assets/img/product-list/01.jpg">列表图01</option>
+                            <option value="assets/img/product-list/02.jpg">详细图02</option>
+                            <option value="assets/img/product-list/03.jpg">详细图03</option>
+                            <option value="assets/img/product-list/04.jpg">详细图04</option>
+                            <option value="assets/img/product-list/05.jpg">详细图05</option>
+                            <option value="assets/img/product-list/06.jpg">详细图06</option>
+                            <option value="assets/img/product-list/07.jpg">详细图07</option>
+                            <option value="assets/img/product-list/08.jpg">详细图08</option>
+                            <option value="assets/img/product-list/09.jpg">详细图09</option>
+                            <option value="assets/img/product-list/10.jpg">详细图10</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="layui-col-md3">
+                <!--上传图片-->
+                <div class="layui-form-item">
+                    <label class="layui-form-label">详情图二</label>
+                    <div class="layui-input-block">
+                        <select name="detailsFigure2">
+                            <option value=""></option>
+                            <option value="assets/img/product-detail-01(main).png">主图</option>
+                            <option value="assets/img/product-detail-02.png">详细图01</option>
+                            <option value="assets/img/product-detail-03.png">详细图02</option>
+                            <option value="assets/img/product-detail-04.png">详细图03</option>
+                            <option value="assets/img/product-detail-05.png">详细图04</option>
+                            <option value="assets/img/product-detail-06.png">详细图05</option>
+                            <option value="assets/img/product1.png">详细图06</option>
+                            <option value="assets/img/product2.png">详细图07</option>
+                            <option value="assets/img/product3.png">详细图08</option>
+                            <option value="assets/img/pd-recommend01.png">详细图09</option>
+                            <option value="assets/img/pd-recommend02.png">详细图10</option>
+                            <option value="assets/img/pd-recommend03.png">详细图11</option>
+                            <option value="assets/img/product-list/01.jpg">列表图01</option>
+                            <option value="assets/img/product-list/02.jpg">详细图02</option>
+                            <option value="assets/img/product-list/03.jpg">详细图03</option>
+                            <option value="assets/img/product-list/04.jpg">详细图04</option>
+                            <option value="assets/img/product-list/05.jpg">详细图05</option>
+                            <option value="assets/img/product-list/06.jpg">详细图06</option>
+                            <option value="assets/img/product-list/07.jpg">详细图07</option>
+                            <option value="assets/img/product-list/08.jpg">详细图08</option>
+                            <option value="assets/img/product-list/09.jpg">详细图09</option>
+                            <option value="assets/img/product-list/10.jpg">详细图10</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            </div>
+
+        </div>
+    </form>
+
+
+</div>
+
+<div id="footer"></div>
+<script>
+    $("#header").load("header.html");
+    $("#footer").load("footer.html");
+</script>
+
+</body>
+<script>
+    //Demo
+    layui.use('form', function () {
+        var form = layui.form;
+        //监听提交
+        form.on('submit(formDemo)', function (data) {
+            layer.msg(JSON.stringify(data.field));
+            // return false;
+        });
+    });
+</script>
+
+<!--<footer>-->
+    <!--<div class="intro-wrap" id="introWrap">-->
+        <!--<p>Copyright © 2019 Mashibing EDU All Rights Reserved.</p>-->
+    <!--</div>-->
+<!--</footer>-->
+
+</html>

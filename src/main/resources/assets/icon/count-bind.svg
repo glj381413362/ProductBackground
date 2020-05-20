@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/账号绑定</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="个人中心" transform="translate(-149.000000, -579.000000)" fill="#000000">
+            <g id="icon/账号绑定" transform="translate(146.000000, 576.000000)">
+                <g id="账号绑定">
+                    <g id="Group" transform="translate(3.000000, 3.000000)" fill-rule="nonzero">
+                        <path d="M7,8.5 L7,3.5 C7,3.77614237 6.77614237,4 6.5,4 C6.22385763,4 6,3.77614237 6,3.5 L6,1 C6,0.44771525 6.44771525,0 7,0 L17,0 C17.5522847,0 18,0.44771525 18,1 L18,11 C18,11.5522847 17.5522847,12 17,12 L7,12 C6.44771525,12 6,11.5522847 6,11 L6,8.5 C6,8.22385763 6.22385763,8 6.5,8 C6.77614237,8 7,8.22385763 7,8.5 Z M7,1 L7,11 L17,11 L17,1 L7,1 Z" id="Combined-Shape"></path>
+                        <path d="M1,14.5 L1,9.5 C1,9.77614237 0.776142375,10 0.5,10 C0.223857625,10 0,9.77614237 0,9.5 L0,7 C0,6.44771525 0.44771525,6 1,6 L11,6 C11.5522847,6 12,6.44771525 12,7 L12,17 C12,17.5522847 11.5522847,18 11,18 L1,18 C0.44771525,18 0,17.5522847 0,17 L0,14.5 C0,14.2238576 0.223857625,14 0.5,14 C0.776142375,14 1,14.2238576 1,14.5 Z M1,7 L1,17 L11,17 L11,7 L1,7 Z" id="Combined-Shape-Copy" transform="translate(6.000000, 12.000000) scale(-1, -1) translate(-6.000000, -12.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

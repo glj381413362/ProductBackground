@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="14px" viewBox="0 0 22 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/video</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="商品列表" transform="translate(-903.000000, -1423.000000)" stroke="#231916">
+            <g id="icon/video" transform="translate(903.000000, 1423.000000)">
+                <g>
+                    <g>
+                        <rect id="Rectangle" x="0.5" y="0.5" width="15" height="13" rx="2"></rect>
+                        <path d="M20.7414364,2.55556082 L15.5,5.176279 L15.5,2 C15.5,1.17157288 14.8284271,0.5 14,0.5 L2,0.5 C1.17157288,0.5 0.5,1.17157288 0.5,2 L0.5,12 C0.5,12.8284271 1.17157288,13.5 2,13.5 L14,13.5 C14.8284271,13.5 15.5,12.8284271 15.5,12 L15.5,8.82394534 L20.7414364,11.4446635 C20.8142181,11.4810544 20.894473,11.5 20.9758454,11.5 C21.265328,11.5 21.5,11.265328 21.5,10.9758454 L21.5,3.02437892 C21.5,2.9430065 21.4810544,2.86275158 21.4446635,2.78996987 C21.315203,2.53104878 21.0003575,2.42610027 20.7414364,2.55556082 Z" id="Triangle-2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,367 @@
+.head-style{
+    max-width: 1200px;
+}
+.shopping-car {
+    width: 70%;
+    margin: auto;
+    max-width: 1200px;
+}
+.xs-sc-list-title {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.sc-status-pay, .sc-status-verify {
+    border-radius: 60px;
+}
+
+.sc-status-look {
+    border-radius: 60px;
+    background-color: #000;
+}
+
+.sc-list-header {
+    margin-top: 30px;
+}
+.pagination>li>a:hover, .pagination>li>span:hover{
+    color: #000;background-color: #fff;
+    border-color:#000000   ;
+}
+.pagination>li>a:focus, .pagination>li>span:focus {
+     z-index: 2;
+    color: #000;background-color: #fff;
+     border-color: #cacaca ;
+
+}
+.numbutton
+{
+    /*color: #fff; background-color:  #000;*/
+    animation: numbutton 0.1s;
+}
+@keyframes numbutton
+{
+    0%   {color: #fff; background-color: #000;}
+    100% { color: #FFFFFF;background-color: #0f0f0f;}
+}
+.bg-right {
+    background-image: url("../assets/icon/bg-right.svg");
+    background-size: 100%;
+}
+
+.sc-status-line {
+    height: 20px;
+    border-bottom: 2px solid #F2F2F2;
+}
+
+.sc-list-logo img {
+    max-width: 120px;
+}
+.num{
+    padding:  0px!important;
+}
+.numtotal{
+    width: 27px;
+    height: 28px;
+    border: none;
+}
+.pagination-sm>li>a, .pagination-sm>li>span {
+    width: 30px;
+    height: 30px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"]{
+    -moz-appearance: textfield;
+}
+.sc-list-content1{
+    padding-bottom: 20px;
+}
+.sc-list-title{
+    margin: 15px 0;
+    font-weight: 500;
+}
+.sc-list-listcheckbox {
+    margin-top: 5px;
+    padding-left: 25px;
+}
+input[class$='checked'] {
+    width: 18px;
+    height: 18px;
+    opacity: 0;
+    margin: 0;
+}
+
+div[class$='checkbox'] p {
+    padding: 0px;
+    width: 15px;
+    height: 15px;
+    background-size: 100%;
+    border: 1px solid #000000;
+}
+
+.sc-invalid-info{
+    font-size: 12px;
+  position: relative;
+    top:-13px;
+}
+.sc-list-checkbox {
+    margin-top: 50px;
+    padding-left: 25px;
+}
+.sc-list-limit{
+    max-width: 130px;
+}
+.sc-list-img {
+    width: 85px;
+    height: 115px;
+}
+
+.dropdown-toggle{
+    background-color: #e5e5e5;
+    height: 20px;
+    position: relative;
+    top:2px;
+}
+.dropdown-toggle:focus{
+
+}
+.sc-list-delete {
+    background-color: #FFFFFF;
+    margin-top: 2px;
+}
+.sc-list-delete img{
+    width: 20px;
+    height: 20px;
+}
+.sc-list-delete:hover{
+    opacity: 0.5;
+}
+.sc-list-pcpayinfo {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.sc-list-num {
+    margin-top: -22px;
+}
+.sc-list-shouldpay{
+    padding-right: 150px;
+   padding-top: 7px;
+}
+.sc-list-totalprice {
+    width: 60px;
+    float: left;
+}
+
+.sc-list-allcheckbox {
+    padding-top: 12px;
+    padding-left: 25px;
+}
+.sc-list-couponinfo{
+    position: relative;
+    left: 6%;
+}
+.sc-list-pay {
+    width: 140px;
+    height: 40px;
+    background-color: #000000;
+    position: relative;
+    right: 20px;
+}
+.invalid {
+    opacity: 0.5;
+}
+
+.sc-list-shop {
+    padding: 5px 0;
+}
+
+hr {
+    margin: 5px 0 20px 0;
+}
+.pd-R30{
+    padding-right: 30px;
+}
+.go-shopping{
+    margin: 140px 0 200px;
+}
+.go-shopping button{
+    width: 140px;
+    height: 40px;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+}
+.sc-list-couponinfo-plpadding{
+    padding-left:12%;
+}
+.sc-list-listcheckbox,.sc-list-checkbox,.sc-list-allcheckbox{
+    padding-left:60px;
+}
+.sc-list-count-chart{
+    padding-left: 10px;
+}
+.homepage-logo-adjustment{
+    padding-left: 30px;
+}
+.pd-T4{
+    padding-top: 4px;
+}
+@media (max-width: 1980px) {
+    .sc-list-listcheckbox,.sc-list-checkbox,.sc-list-allcheckbox{
+        padding-left:60px;
+    }
+}
+@media (max-width: 1800px) {
+
+    .sc-list-couponinfo{
+        left: 6%;
+    }
+    .sc-list-listcheckbox,.sc-list-checkbox,.sc-list-allcheckbox{
+        padding-left: 50px;
+    }
+    .sc-list-couponinfo-plpadding{
+        padding-left:10%;
+    }
+    .sc-list-pay {
+        position: relative;
+        right: 20px;
+    }
+}
+@media (max-width: 1400px) {
+
+    .sc-list-couponinfo{
+        left: 3%;
+    }
+    .sc-list-couponinfo-plpadding{
+        padding-left:7.5%;
+    }
+    .sc-list-shouldpay {
+        padding-right: 135px;
+        padding-top: 7px;
+    }
+    .sc-list-pay {
+        width: 120px;
+        height: 40px;
+    }
+}
+@media (max-width: 1200px) {
+    .shopping-car {
+        width: 80%;
+        margin: auto;
+    }
+    .sc-list-couponinfo{
+        left: 3%;
+    }
+    .sc-list-couponinfo-plpadding{
+        padding-left:6%;
+    }
+    .sc-list-listcheckbox,.sc-list-checkbox,.sc-list-allcheckbox{
+        padding-left: 45px;
+    }
+
+    .sc-list-shouldpay {
+        padding-right: 125px;
+        padding-top: 7px;
+    }
+    .sc-list-pay {
+        width: 120px;
+        height: 40px;
+    }
+}
+@media (max-width: 1000px) {
+    .shopping-car {
+        width: 90%;
+        margin: auto;
+    }
+    .sc-list-couponinfo{
+        left: 6%;
+    }
+    .sc-list-couponinfo-plpadding{
+        padding-left:4.2%;
+    }
+    .sc-list-shouldpay {
+        padding-right: 135px;
+        padding-top: 7px;
+    }
+    .sc-list-pay {
+        width: 120px;
+        height: 40px;
+    }
+    .sc-list-listcheckbox,.sc-list-checkbox,.sc-list-allcheckbox{
+        padding-left: 25px;
+    }
+
+}
+@media (max-width: 767px) {
+    .shopping-car {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .sc-list-img {
+        width: 85px;
+        height: 115px;
+    }
+    .xs-sc-list-title {
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    .sc-list-title{
+        margin: 3px 0 5px 0;
+
+    }
+.sc-list-listcheckbox{
+    /*padding-left: 0px;*/
+}
+    .sc-list-num {
+        margin-top: -15px;
+        float: right;
+        position: relative;
+        left: -15px;
+        /*padding: 5px 0 0 0 ;*/
+    }
+    .sc-list-coupon{
+        text-align: right;
+
+    }
+    .sc-list-shouldpay{
+        padding-right: 10px;
+    }
+    .sc-list-pay {
+      position: unset;
+        width: 100%;
+        height: 40px;
+        margin: auto;
+        background-color: #000000;
+    }
+
+    .sc-list-mbpayinfo {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 10px 15px 20px 15px;
+        border-top: 1px solid #e8e8e8;
+        background-color: #FFFFFF;
+        z-index: 999;
+    }
+    .sc-list-count-chart{
+        padding-left: 0px;
+    }
+    .sc-list-content1{
+        padding-bottom: 0px;
+    }
+}
+@media (max-width: 490px) {
+.col-xs-1{
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+    .sc-list-limit {
+    position: relative;
+        left: 5px;
+    }
+    .alltotalprice{
+        padding-right: 15px;
+    }
+}

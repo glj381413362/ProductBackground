@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:mysql://127.0.0.1:3306/product}?characterEncoding=utf8&useSSL=true&serverTimezone=UTC&allowMultiQueries=true
+    username: root
+    password: 840416
+  resources:
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,classpath:/page/
+
+#MyBatis显示SQL
+logging:
+  level:
+    com.mashibing.arica.mapper: debug
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.glj.million.level.product.entity
+
+
+nginx:
+  html:
+    root: /Users/gongliangjun/mylog/test/
+
+
+jfinal:
+  templates:
+    location: /Users/gongliangjun/workspace_msb/product/src/main/resources/templates/

@@ -1,0 +1,455 @@
+/*支付页面css*/
+
+.common-header {
+    width: 70%;
+    margin: auto;
+}
+
+.payment-content {
+    padding-top: 5%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.payment-top-tips {
+    text-align: center;
+    /*padding-bottom: 5%;*/
+}
+
+.payment-top-tips-txt1 {
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    line-height: 50px;
+}
+
+.payment-top-tips-txt2 {
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+    line-height: 20px;
+}
+
+.payment-total {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.payment-amount {
+    font-size: 14px;
+    color: #808080;
+    text-align: center;
+    line-height: 14px;
+}
+
+.payment-price {
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    line-height: 50px;
+}
+
+.payment-hr {
+    color: #DADADA;
+    width: 100%;
+    margin: 0;
+}
+
+.payment-way {
+    padding-top: 2%;
+    text-align: center;
+}
+
+.payment-col-padding {
+    padding: 0;
+}
+
+.payment-row-margin {
+    margin: 0;
+}
+
+.payment-select {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.payway-img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #DADADA;
+    cursor: pointer;
+}
+
+.payment-checked {
+    border: 1px solid #000;
+}
+
+.payment-select-col {
+    padding: 4% 2%;
+}
+
+.payment-submit {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.look-order {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.payment-btn {
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 14px;
+    background-color: #000;
+    border-color: #000;
+    padding: 1% 7%;
+    cursor: pointer;
+}
+
+.to-shoping {
+    text-align: center;
+    margin-top: -2%;
+    margin-bottom: 5%;
+}
+
+.to-shoping a {
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 20px;
+}
+
+.moco-code-container {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+.moco-code-container img {
+    width: 100px;
+    height: 100px;
+}
+.wx-code img{
+    width: 200px!important;
+    height: 200px!important;
+}
+
+.moco-code-txt {
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 30px;
+}
+
+.payment-submit .payment-btn:hover, .look-order .payment-btn:hover {
+    opacity: 0.8;
+}
+
+.mobile-pay-way {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.mobile-pay-way ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.mobile-pay-way li {
+    padding: 4% 5%;
+    position: relative;
+
+}
+
+.mobile-pay-way li:nth-child(1):before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    content: '';
+    background-color: #E5E5E5;
+}
+
+.mobile-pay-way li:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    content: '';
+    background-color: #E5E5E5;
+}
+
+.mobile-pay-way img {
+    width: 35px;
+    height: 35px;
+}
+
+.pay-txt-col {
+    text-align: left;
+}
+
+.mobile-pay-way span {
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 35px;
+    text-align: left;
+}
+
+.pay-label {
+    display: inline-block;
+    margin-bottom: 0 !important;
+    margin-top: 7.5px;
+}
+
+.pay-radio {
+    display: none
+}
+
+.pay-radioInput {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 100%;
+    display: inline-block;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: -1px;
+    vertical-align: middle;
+    width: 20px;
+    line-height: 1;
+    position: relative;
+}
+
+.pay-radio:checked + .pay-radioInput:after {
+    background-color: #000;
+    border-radius: 100%;
+    content: "";
+    display: inline-block;
+    height: 10px;
+    margin-left: 4px;
+    margin-top: 4px;
+    width: 10px;
+    position: absolute;
+}
+
+.pay-checkbox.pay-radioInput, .pay-radio:checked + .pay-checkbox.pay-radioInput:after {
+    border-radius: 0
+}
+
+.pay-radio:checked + .pay-radioInput {
+    border: 1px solid #000;
+}
+
+.pay-success-img {
+    width: 72px;
+    height: 72px;
+}
+
+.pay-success-txt {
+    padding-top: 2%;
+}
+
+.pay-success-txt span {
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 50px;
+}
+
+.pay-fail-txt {
+    font-size: 30px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 2%;
+}
+
+.pay-fail-desc {
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 30px;
+    padding: 2% 0;
+}
+
+.intime-payment {
+    text-align: center;
+    margin: 10% 0;
+}
+
+.pay-fail-anotice {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.pay-fail-anotice-title {
+    font-size: 12px;
+    color: #808080;
+    line-height: 12px;
+}
+
+.pay-fail-anotice-content {
+    font-size: 14px;
+    color: #000000;
+    line-height: 24px;
+    margin: 4% 10%;
+}
+.payment-mobile-wx{
+    padding-top: 69px;
+}
+.payment-wx-title{
+    padding: 39px 0;
+}
+.wx-code-container{
+    padding: 21px 0 60px 0;
+}
+.wx-code-container img{
+    width: 160px;
+    height: 160px;
+}
+.wx-code-container p{
+    padding: 6px 0;
+}
+.triangle-facing-right {
+    display: inline-block;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    width: 6px;
+    height: 6px;
+    transform: rotate(-45deg);
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+/*移动端样式*/
+@media (max-width: 767px) {
+    .payment-select{
+        width: unset;
+        margin: 0 25%;
+    }
+
+    .payment-mobile {
+        margin-top: 60px;
+    }
+
+    .payment-amount {
+        font-size: 12px;
+    }
+
+    .payment-way {
+        padding-top: 5%;
+    }
+
+    .payment-select {
+        margin: 0 1.5%;
+    }
+
+    .payment-submit {
+        margin-bottom: 10%;
+    }
+
+    .payment-btn {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 4% 38%;
+    }
+
+    .pay-success-img {
+        margin-top: 2%;
+    }
+
+    .pay-success-txt {
+        padding-top: 5%;
+    }
+
+    .pay-success-txt span:nth-child(1) {
+        font-size: 14px !important;
+        line-height: 30px !important;
+    }
+
+    .span2 {
+        font-size: 30px !important;
+        line-height: 30px !important;
+    }
+
+    .look-order {
+        text-align: center;
+        margin-top: 20%;
+        margin-bottom: 5%;
+    }
+
+    .look-order-btn {
+        padding: 4% 30%;
+        border: 1px solid #000;
+    }
+
+    .to-shoping-mobile {
+        text-align: center;
+        margin-top: 12%;
+        margin-bottom: 5%;
+    }
+
+    .to-shoping-btn {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 4% 30%;
+        color: #000;
+        background-color: #fff;
+        border: 1px solid #000;
+    }
+
+    .moco-code-container {
+        margin-top: 15%;
+    }
+
+    .moco-code-container img {
+        width: 69.7px;
+        height: 69.4px;
+    }
+
+    .moco-code-txt {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .pay-fail-txt {
+        font-size: 24px;
+        margin-top: 3%;
+    }
+
+    .intime-payment {
+        margin-top: 30%;
+    }
+
+    .payment-mobile-wx{
+        padding-top: 40px;
+    }
+    .payment-wx-title{
+        padding: 39px 15px;
+    }
+    .wx-code-container{
+        padding: 21px 0 60px 0;
+    }
+    .wx-code-container img{
+        width: 160px;
+        height: 160px;
+    }
+    .wx-code-container p{
+        padding: 6px 0;
+    }
+}
+

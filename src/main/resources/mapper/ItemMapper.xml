@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.glj.million.level.product.mapper.ItemMapper">
+  <resultMap id="BaseResultMap" type="com.glj.million.level.product.entity.Item">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="content" jdbcType="VARCHAR" property="content" />
+    <result column="notes" jdbcType="VARCHAR" property="notes" />
+    <result column="fabric" jdbcType="VARCHAR" property="fabric" />
+    <result column="main_figure" jdbcType="VARCHAR" property="mainFigure" />
+    <result column="details_figure1" jdbcType="VARCHAR" property="detailsFigure1" />
+    <result column="details_figure2" jdbcType="VARCHAR" property="detailsFigure2" />
+    <result column="last_generate" jdbcType="TIME" property="lastGenerate" />
+    <result column="html_status" jdbcType="VARCHAR" property="htmlStatus" />
+    <result column="location" jdbcType="VARCHAR" property="location" />
+    <result column="template_name" jdbcType="VARCHAR" property="templateName" />
+    <result column="category" jdbcType="VARCHAR" property="category" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    id, title, content, notes, fabric, main_figure, details_figure1, details_figure2, 
+    last_generate, html_status, location, template_name, category
+  </sql>
+</mapper>

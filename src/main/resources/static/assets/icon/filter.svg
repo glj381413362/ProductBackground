@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/filter</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/filter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-16" stroke="#131313">
+            <path d="M5.47745733,13 L5.47745733,6.70340196 L2.57748051,4.26544831 C2.15473508,3.91005452 2.1001358,3.27924804 2.45552959,2.85650261 C2.64553425,2.63048965 2.92570915,2.5 3.2209779,2.5 L12.3071955,2.5 C12.8594803,2.5 13.3071955,2.94771525 13.3071955,3.5 C13.3071955,3.82617939 13.1481149,4.13186045 12.8809695,4.3190137 L9.47745733,6.70340196 L9.47745733,15" id="Path-2"></path>
+        </g>
+    </g>
+</svg>

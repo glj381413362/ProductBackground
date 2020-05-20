@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>web copy 56</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PC首页" transform="translate(-1632.000000, -50.000000)">
+            <g id="head" transform="translate(0.000000, 36.000000)">
+                <g id="Group-14" transform="translate(1468.000000, 14.000000)">
+                    <g id="Group-12" transform="translate(164.000000, 0.000000)">
+                        <g id="icon/购物袋" transform="translate(1.000000, 1.000000)">
+                            <g id="Group-2">
+                                <path d="M3.81779515,3.5 C3.03915919,3.5 2.38998421,4.0957711 2.32330534,4.87154677 L1.63569554,12.8715468 C1.63202377,12.9142661 1.63018534,12.9571232 1.63018534,13 C1.63018534,13.8284271 2.30175822,14.5 3.13018534,14.5 L13.7271456,14.5 C13.7700224,14.5 13.8128795,14.4981616 13.8555988,14.4944898 C14.6809827,14.423547 15.2925781,13.6969307 15.2216354,12.8715468 L14.5340256,4.87154677 C14.4673467,4.0957711 13.8181717,3.5 13.0395358,3.5 L3.81779515,3.5 Z" id="Rectangle-6" stroke="#131313"></path>
+                                <path d="M5.5,3.5 L11.5,3.5 C11.5,1.84314575 10.1568542,0.5 8.5,0.5 C6.84314575,0.5 5.5,1.84314575 5.5,3.5 Z" id="Rectangle-7" stroke="#131313"></path>
+                                <rect id="Rectangle-3" fill="#131313" x="5" y="3" width="1" height="4" rx="0.5"></rect>
+                                <rect id="Rectangle-3-Copy" fill="#131313" x="11" y="3" width="1" height="4" rx="0.5"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

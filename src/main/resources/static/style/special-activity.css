@@ -1,0 +1,144 @@
+.sa-top {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.sa-container img {
+    width: 100%;
+}
+
+.sa-container-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.sa-container-title h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.sa-container-title p {
+    font-size: 25px;
+    margin-top: 30px;
+}
+.sa-single{
+    margin: 70px 15px;
+    padding: 0 10%;
+}
+.sa-middle {
+    margin: 10px 0 70px 0;
+    padding: 0 10%;
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sa-middle-img{
+
+}
+.sa-middle img {
+    width: 100%;
+}
+
+.sa-middle-poster {
+    align-self: flex-end;
+    padding: 8%;
+}
+
+.sa-middle-charter {
+    padding-top: 25%;
+}
+
+.sa-middle-charter h1 {
+    margin-top: 0;
+    font-size: 40px;
+}
+
+.sa-middle-charter p {
+    font-size: 26px;
+}
+
+.sa-middle-charter button {
+    margin-top: 100px;
+    width: 260px;
+    height: 60px;
+    background-color: #000000;
+    border: none;
+}
+
+.sa-middle-imginfo {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.sa-middle-imginfo button {
+    border: none;
+    background-color: #000000;
+    margin-top: 20px;
+    width: 240px;
+    height: 46px;
+}
+
+.sa-list {
+    padding: 0 10%;
+    display: flex;
+    align-self: stretch;
+    flex-wrap: wrap;
+
+}
+
+.sa-list img {
+    width: 100%;
+}
+.sa-list-img img {
+    width: 100%;
+    height: 100%;
+    background: url(/_ui/responsive/common/moco/img/loading.gif) 50% no-repeat;
+}
+.mg-B50{
+    margin-bottom: 50px;
+}
+@media (max-width: 900px) {
+    .sa-middle-charter {
+        padding-top:15%;
+    }
+}
+@media (max-width: 767px) {
+    .sa-top {
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 70px;
+    }
+    .sa-container-title h1 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .sa-container-title p {
+        font-size: 16px;
+        margin-top: 0;
+    }
+    .sa-middle-poster {
+        padding: 0;
+    }
+
+    .sa-container .sa-list {
+        padding: 0;
+        display: flex;
+        align-self: stretch;
+        flex-wrap: wrap;
+
+    }
+    .sa-list .col-xs-6:nth-child(2n+1){
+        padding-left: 7px;
+        padding-right: 3px;
+    }
+    .sa-list .col-xs-6:nth-child(2n){
+        padding-left: 3px;
+        padding-right: 7px;
+    }
+}

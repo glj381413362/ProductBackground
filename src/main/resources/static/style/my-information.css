@@ -1,0 +1,391 @@
+.head-style a {
+    color: #000000;
+}
+.my-info-content .btn:hover, .btn:focus, .btn.focus{
+    color: #000000;
+}
+.label{
+    padding-left: 20px;
+}
+.label span {
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 35px;
+    text-align: left;
+}
+.radio {
+    display: none
+}
+
+.radioInput {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 100%;
+    display: inline-block;
+    height: 16px;
+    margin-right: 20px;
+    margin-top: -1px;
+    vertical-align: middle;
+    width: 16px;
+    line-height: 1;
+    position: relative;
+}
+
+.radio:checked + .radioInput:after {
+    background-color: #000;
+    border-radius: 100%;
+    content: "";
+    display: inline-block;
+    height: 8px;
+    margin-left: 3px;
+    margin-top: 3px;
+    width: 8px;
+    position: absolute;
+}
+
+.checkbox.pay-radioInput, .radio:checked + .checkbox.radioInput:after {
+    border-radius: 0
+}
+
+.radio:checked + .radioInput {
+    border: 1px solid #000;
+}
+
+.my-info {
+    width: 70% !important;
+    border: none !important;
+    border-bottom: 1px solid #808080 !important;
+    background-color: #FFFFFF !important;
+    box-shadow: none !important;
+    height: 24px;
+    text-align-last: center;
+}
+
+.select-component {
+    width: 70% !important;
+    border-bottom: 1px solid #808080 !important;
+    height: 26px;
+    text-align: center;
+}
+.select-component-lm{
+    width: 60% !important;
+    border-bottom: 1px solid #808080 !important;
+    height: 26px;
+    text-align: center;
+}
+.select-component .btn {
+    background-color: #FFFFFF;
+}
+.select-component-lm .btn {
+    background-color: #FFFFFF;
+}
+
+.dropdown-toggle:focus {
+    color: #000000;
+}
+
+.dropdown-menu {
+    position: relative !important;
+    top: 0px !important;
+    float: unset;
+}
+
+.glyphicon-chevron-down {
+    position: absolute;
+    top: 7px;
+    right: 0;
+}
+.my-info-content .am-form-field{
+    padding: 0;
+    font-size: 14px;
+}
+.my-info-content {
+    padding-left: 70px;
+}
+
+.my-info-tip {
+    position: relative;
+    top: 3px;
+}
+.red-dot:before{
+    content: '*';
+    color: red;
+    position: absolute;
+    left: -8px;
+}
+
+.my-info-gender {
+    width: 70%;
+    margin: auto;
+    padding-top: 2px;
+}
+.my-info-gender-male,.my-info-gender-famale{
+    position: relative;
+    right: 20px;
+    top:1px;
+}
+.my-info-male-pd {
+    padding-left: 20%;
+}
+
+.my-info-female-pd {
+    padding-left: 20%;
+}
+
+.my-info-gender-pd {
+    padding-left: 25%;
+}
+
+.glyphicon-info-sign {
+    position: relative;
+    left: -20px;
+}
+
+.my-info-habit-checked {
+    width: 17px;
+    height: 17px;
+    opacity: 0;
+    margin: 0;
+}
+.my-info-email{
+    padding: 10px 0 0 0;
+}
+.my-info-habits-lm{
+    margin-left: 50px;
+    padding-top: 3px;
+}
+.my-info-habit {
+    width:calc(50% - 5px);
+    display: inline-block;
+}
+
+.my-info-habit-other {
+    width: 60%;
+    display: inline-block;
+}
+
+.my-info-habit-othercheceked {
+    width: 90%;
+    display: block;
+}
+
+.my-info-habit p {
+    padding: 0px;
+    width: 13px;
+    height: 13px;
+    margin: 0px;
+    float: left;
+    position: relative;
+    top: 3px;
+    background-size: 100%;
+    border: 1px solid #000000;
+}
+
+.my-info-habit-other {
+    width: 65% !important;
+}
+
+.my-info-save {
+    background-color: #000000;
+    width: 30%;
+
+}
+
+
+.my-info-save-content {
+    padding: 50px 0 100px 0;
+
+}
+
+ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 14px !important;
+}
+
+p {
+    margin: 0 !important;
+}
+.am-datepicker-success tr.am-datepicker-header {
+    background: #000000 !important;
+}
+
+.am-datepicker-success .am-datepicker-caret {
+    border-bottom-color: #000000 !important;
+}
+
+.am-datepicker-success .am-datepicker-next-icon:hover, .am-datepicker-success .am-datepicker-prev-icon:hover, .am-datepicker-success .am-datepicker-select:hover {
+    background: #000000 !important;
+    color: #FFFFFF !important;
+}
+.am-datepicker-success td.am-datepicker-new, .am-datepicker-success td.am-datepicker-old{
+    color: #CACACA !important;
+}
+.am-datepicker-success td span.am-datepicker-old{
+    color: #000000 !important;
+}
+
+.am-datepicker-success .am-datepicker-dow{
+    color: #808080!important;
+}
+.am-datepicker-success td.am-active, .am-datepicker-success td.am-active:hover,.am-datepicker-success td span.am-active{
+    color: #FFFFFF !important;
+    background-color: #000000 !important;
+    font-weight: 600;
+}
+.my-info-content .dropdown-menu{
+    overflow: auto;
+    height: 270px;
+    border: 1px solid #EFEFEF;
+    box-shadow: 3px 4px 6px 0 rgba(87,87,87,0.09);
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.my-info-content .dropdown-menu>li>a{
+    padding: 6px 20px;
+}
+.my-info-content .dropdown-menu>li:hover{
+background-color: #CACACA;
+}
+@media (max-width: 1100px) {
+
+    .my-info-content {
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .head-style {
+        width: 100%;
+        position: fixed;
+        background-color: white;
+        z-index: 999;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .my-order-section {
+        margin: 0;
+    }
+
+    .my-info-col {
+        width: 90%;
+        margin: auto;
+    }
+
+    .my-info-content {
+        padding: 0;
+    }
+
+    .my-collection-title {
+        margin-top: 80px;
+    }
+
+    .my-info {
+        width: calc(100% - 100px) !important;
+        border: none !important;
+        height: 27px;
+        text-align-last: right;
+        text-align: right;
+        float: right;
+    }
+
+    .my-info-hr {
+        margin: 0;
+        width: 100%;
+    }
+
+    .my-info-gender {
+        width: 100%;
+        margin: auto;
+        text-align: right;
+    }
+
+    .select-component {
+        border: none !important;
+        padding-right: 12px;
+        width: calc(100% - 30px) !important;
+        margin-left: 0;
+    }
+
+    .select-component .btn {
+        float: right;
+    }
+    .select-component-lm {
+        border: none !important;
+        padding-right: 12px;
+        width: calc(100% - 90px) !important;
+        margin-left: 0;
+        float: left;
+    }
+
+    .select-component-lm  .btn {
+        float: right;
+    }
+
+    .dropdown-menu {
+        position: absolute !important;
+        right: 0;
+        top: 25px !important;
+    }
+
+    .glyphicon-chevron-down {
+        right: 0px;
+    }
+
+    .my-info-male-pd {
+        padding-left: 50%;
+    }
+
+    .my-info-female-pd {
+        position: absolute;
+        right: 8%;
+        top: 2px;
+    }
+
+    .my-info-birthday {
+        /*position: relative;*/
+        /*top: 10px;*/
+    }
+
+    .my-info-habits {
+        clear: both;
+        margin: 0;
+        padding: 20px 0 0 2px;
+    }
+
+    .my-info-habit {
+        width: 32%;
+        display: inline-block;
+    }
+
+    .my-info-save {
+        background-color: #000000;
+        width: 90%;
+        margin: 20px 0 30px 0;
+    }
+
+    .my-info-save-content {
+        padding: 20px 0 20px 0;
+
+    }
+    input::-ms-input-placeholder{
+        text-align: right;
+    }
+    input::-webkit-input-placeholder{
+        text-align: right;
+    }
+.my-info-content .col-lg-6{
+    padding: 0;
+}
+    .my-info-number{
+        padding: 0;
+    }
+    .my-info-email{
+        padding: 0;
+    }
+}

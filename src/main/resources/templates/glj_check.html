@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport"
+          content="user-scalable=no, width=device-width, minimum-scale=1, maximum-scale=1">
+
+    <title>静态文件管理</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/layui.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <style type="text/css">
+        .wa {
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+<div id="header"></div>
+
+
+<div class="content why-hilo">
+    <h2>文件检查</h2>
+
+    <p class="info">
+        下面会列出没有生成的或缺失的文件<br/>
+    </p>
+    <div style="text-align: -webkit-center;">
+
+        #for(item : errorList)
+
+        id:#(item.id) ,title : #(item.title) 没有找到文件 <br>
+        #end
+
+
+    </div>
+
+
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="layui.all.js"></script>
+<div id="footer"></div>
+<script>
+    $("#header").load("header.html");
+    $("#footer").load("footer.html");
+</script>
+</body>
+
+</html>

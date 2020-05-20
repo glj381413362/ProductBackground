@@ -1,0 +1,519 @@
+.head-style {
+    max-width: 1200px;
+}
+
+.shopping-car {
+    width: 70%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.sc-list-title {
+    margin: 70px 0 45px 0;
+}
+
+.sc-status-look {
+    border-radius: 60px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    width: 34px;
+    height: 34px;
+}
+
+.ov-title {
+    padding-top: 90px;
+}
+
+.glyphicon-ok {
+    text-indent: -3px;
+}
+
+.sc-status-pay {
+    border-radius: 60px;
+}
+
+.sc-status-verify {
+    border-radius: 60px;
+    background-color: #000;
+}
+
+.sc-list-header {
+    margin-top: 20px;
+}
+
+.dropdown-toggle {
+    background-color: #FFFFFF;
+}
+
+.dropdown-toggle:hover {
+    background-color: #FFFFFF;
+}
+
+.dropdown-toggle:focus {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+select {
+    border: none;
+}
+
+option {
+    border: 1px solid #4cae4c;
+}
+
+.sc-order-custominfo {
+    height: 130px;
+    margin: auto;
+    border: 1px dashed #000000;
+    position: relative;
+    opacity: 0.6;
+}
+
+.sc-order-pcaddaddress {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.sc-order-address {
+    background-color: #000;
+}
+
+.sc-order-defaultaddress {
+    background-color: #000000;
+    position: absolute;
+    padding: 2px 3px 2px 5px;
+    right: -1px;
+    top: -1px;
+}
+
+.sc-order-selffetch {
+    padding: 20px 0 30px 15px;
+}
+
+.sc-order-location {
+    border: 1px solid #000000;
+}
+
+.bg-right {
+    background-image: url("../assets/icon/bg-right.png");
+    background-size: 100%;
+}
+
+.sc-status-line {
+    height: 20px;
+    border-bottom: 2px solid #F2F2F2;
+}
+
+.sc-list-logo img {
+    max-width: 120px;
+}
+
+.sc-order-shoppingstate {
+    position: relative;
+    left: 15%;
+}
+
+.sc-order-checked {
+    width: 18px;
+    height: 18px;
+    opacity: 0;
+    margin: 0;
+}
+
+.sc-order-checkbox {
+    padding: 0px;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+    background-size: 100%;
+    border: 1px solid #000000;
+}
+
+.sc-list-listcheckbox {
+    margin-top: 5px;
+}
+
+.sc-list-checkbox {
+    margin-top: 50px;
+}
+
+.sc-list-img {
+    width: 75px;
+    height: 100px;
+}
+
+.sc-list-coupon {
+    margin-top: 5px;
+    height: 20px;
+    width: 60px;
+}
+
+.sc-list-delete {
+    background-color: #ffffff;
+    margin-top: 40px;
+}
+
+.sc-order-commoditytitle {
+    width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.sc-list-num {
+    margin-top: -10px;
+}
+
+.sc-list-totalprice {
+    width: 60px;
+    float: left;
+}
+
+.sc-order-totaloffer {
+    margin: 30px 0;
+}
+
+.sc-list-pay {
+    width: 100%;
+    height: 40px;
+    background-color: #000000;
+}
+
+.sc-order-payinfo {
+    padding: 0 2% 0 20%;
+}
+
+.sc-order-invoiceheader, .sc-order-email {
+    clear: both;
+}
+
+.sc-order-nameinfo {
+    width: 70px;
+    height: 20px;
+    position: relative;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.sc-order-emailinfo {
+    width: 150px;
+    position: relative;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.sc-order-emailinfo:focus {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.sc-order-invoice {
+    padding: 0 15% 0 15px;
+}
+
+.sc-order-needpay {
+    float: right;
+    position: relative;
+    top: -5px;
+}
+
+.sc-order-input-container {
+    border-bottom: 1px solid #808080;
+    width: 60%;
+}
+
+.sc-order-input {
+    border: none;
+    width: 100%;
+}
+
+.invalid {
+    opacity: 0.5;
+}
+
+.bgc-e5 {
+    background-color: #f9f9f9;
+}
+
+.bdc-e5 {
+    border: 1px dashed #e5e5e5;
+}
+
+hr {
+    margin: 0 0 10px 0;
+}
+
+.red-point {
+    position: absolute;
+    left: 6px;
+    color: red;
+}
+
+.btn-group-xs {
+    position: relative;
+    top: -1px;
+}
+
+.sc-order-addresspc-set .edited {
+    position: relative;
+    top: 1px;
+}
+
+.ov-sale-info {
+ position: relative;
+    top:-1px;
+}
+.ov-promotion-padding{
+    padding: 5px 0 0 35px;
+}
+.text-info{
+    width: 50%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+#coupon-mask{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.sc-order-totaloffer .dropdown-toggle .color-000{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sc-order-totaloffer .dropdown-menu{
+    min-width: 230px;
+    margin-top: 0;
+}
+.sc-order-totaloffer .dropdown-menu>ul>li>a{
+    padding: 0 9px;
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 0;
+    min-width: 150px;
+    max-width: 300px;
+    line-height: 32px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-decoration: none;
+}
+.sc-order-totaloffer .dropdown-menu>ul>li>a:focus{
+    background-color: transparent;
+}
+.coupon-ul{
+    height: 128px;
+    overflow-y: auto;
+}
+.coupon-li{
+    display: flex;
+    height: 32px;
+    align-items: center;
+    padding: 0 14px;
+    line-height: 32px;
+}
+.coupon-li:hover{
+    background-color: #f8f8f8;
+}
+.coupon-li .box{
+    width: 14px;
+    height: 14px;
+    border: 1px solid #000000;
+}
+.coupon-li .box.checked{
+    width: 14px;
+    height: 14px;
+    background: url("../assets/icon/bg-right.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+}
+.coupon-li .color-000{
+    width: 40px;
+    margin-left: auto;
+}
+.btn-group{
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 14px;
+    justify-content: space-between;
+}
+.btn-group >button{
+    width: 97px;
+    height: 28px;
+}
+@media (max-width: 3000px) and (min-width: 1600px) {
+    .ov-width-offset {
+        position: relative;
+        right: 80px;
+    }
+}
+
+@media (max-width: 1600px) and (min-width: 1300px) {
+    .ov-width-offset {
+        position: relative;
+        right: 6%;
+    }
+}
+
+@media (max-width: 1300px) and (min-width: 1024px) {
+    .ov-width-offset {
+        position: relative;
+        right: 3.5%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sc-order-payinfo {
+        padding: 0 2% 0 9%;
+    }
+
+    .sc-order-invoice {
+        padding: 0 10% 0 15px;
+    }
+}
+
+@media (max-width: 960px) {
+    .shopping-car {
+        width: 88%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .ov-mask::before {
+        content: '';
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(64, 84, 90, .6);
+        z-index: 99;
+    }
+
+    .shopping-car {
+        width: 100%;
+    }
+
+    .ov-title {
+        padding-top: 40px;
+    }
+
+    .ov-width-offset {
+        position: relative;
+        right: 0;
+    }
+
+    .glyphicon-ok {
+        text-indent: -4px;
+        line-height: 0px;
+    }
+
+    sc-list-title {
+        margin: 40px 0 30px 0;
+    }
+
+    .sc-status-look {
+        border-radius: 60px;
+        background-color: #FFFFFF;
+        border: 1px solid #000000;
+        width: 27px;
+        height: 27px;
+    }
+
+    .sc-order-selffetch {
+        margin-bottom: 30px;
+        padding: 10px 0 0 0px;
+    }
+
+    .sc-order-mbaddress {
+        -webkit-overflow-scrolling: touch;
+        width: 90%;
+        position: fixed;
+        height: 100%;
+        right: 0;
+        top: 0;
+        z-index: 9999;
+        background-color: #FFFFFF;
+
+    }
+
+    .sc-order-mbaddress .window-close-img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .sc-order-addresslist {
+        height: calc(100% - 120px);
+        overflow: auto;
+    }
+
+    .sc-order-commoditytitle {
+        padding: 5px 0;
+        width: 150px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .sc-list-num {
+        width: 100px;
+        float: right;
+    }
+
+    /*.sc-order-location {*/
+    /*margin: 0 0 30px 0;*/
+    /*}*/
+    .sc-order-addaddress {
+        width: 91%;
+        height: 40px;
+        margin: 10px auto;
+        background-color: #000000;
+    }
+
+    .sc-order-payinfo, .sc-order-invoice {
+        padding: 15px 15px 0 15px;
+    }
+
+    .ov-offerinfo {
+        display: flex;
+        align-items: flex-end;
+        justify-self: flex-end;
+        flex-direction: column-reverse;
+        height: 110px;
+    }
+    .ov-promotion-padding{
+        padding: 5px 0 0 30px;
+    }
+    .sc-list-logo img {
+        max-width: 100px;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+    .sc-order-totaloffer .dropdown-menu>ul>li>a{
+        padding: 0 9px;
+        font-size: 12px;
+        color: #000000;
+        letter-spacing: 0;
+        width: 150px;
+        line-height: 32px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        height: 32px;
+        white-space: nowrap;
+    }
+}

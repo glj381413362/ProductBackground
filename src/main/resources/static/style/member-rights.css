@@ -1,0 +1,65 @@
+.member-rights-card{
+    width: 370px;
+    height: 200px;
+    background-color: #000000;
+    padding: 20px 35px;
+    border-radius: 10px;
+    box-shadow: 0 28px 46px -15px rgba(0,0,0,0.33);
+    margin: auto;
+}
+.member-rights-level{
+    font-size: 24px;
+    font-weight: 500;
+    color:#FFFFFF;
+    text-align: left;
+    padding: 85px 0 5px 0;
+}
+.member-right-container{
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.member-right{
+    border: 1px solid #EFEFEF;
+    padding: 25px;
+    overflow: hidden;
+
+}
+.member-right p{
+    word-break:break-all;
+    line-height: 20px;
+}
+.member-right>img{
+    height: 60px;
+    width: 60px;
+}
+.member-right-id{
+    border-right: 1px solid #DADADA ;
+    padding-right: 12px;
+}
+.member-right-content{
+    width: 100%;
+    height: 280px;
+    background-color: #F8F8F8;
+}
+.member-right-weixin img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+@media (max-width:767px) {
+    .member-rights-card{
+        width: 95%;
+        max-width: 370px;
+    }
+.member-rights-stripecode img{
+    margin-top: 20px;
+    width: 50%;
+}
+    .my-order-container .my-order-col {
+        margin: 0;
+        padding:0 10px;
+    }
+}

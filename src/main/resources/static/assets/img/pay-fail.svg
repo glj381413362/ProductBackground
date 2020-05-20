@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>失败</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="支付失败" transform="translate(-924.000000, -216.000000)">
+            <g id="Group-4" transform="translate(924.000000, 216.000000)">
+                <g id="Group-3" transform="translate(1.000000, 1.000000)">
+                    <circle id="Oval-3" stroke="#000000" fill="#000000" cx="35" cy="35" r="35"></circle>
+                    <g id="Group-2" transform="translate(35.162951, 35.162951) rotate(-315.000000) translate(-35.162951, -35.162951) translate(16.662951, 16.662951)" fill="#FFFFFF">
+                        <rect id="Rectangle-5" x="0" y="16.8800377" width="36.1963696" height="2.61031511"></rect>
+                        <rect id="Rectangle-5-Copy" transform="translate(18.098185, 18.185195) rotate(-270.000000) translate(-18.098185, -18.185195) " x="0" y="16.8800377" width="36.1963696" height="2.61031511"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,467 @@
+.sy-head-remain img {
+    cursor: pointer;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 13px;
+    left: 70%;
+}
+
+.campaign-container {
+    margin: 70px auto 160px;
+    width: 1000px;
+}
+
+.campaign-title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.campaign-description {
+    margin: 20px 0 120px 0;
+    text-align: center;
+}
+
+.happening-container {
+    margin: 70px auto 160px;
+    width: 1000px;
+}
+
+.happening-title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.carousel-component {
+    position: relative;
+}
+
+.carousel-dots {
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 40px;
+    z-index: 3;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.carousel-dots li {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: #808080;
+    margin: 0 8px;
+}
+
+.carousel-dots .active {
+    background-color: #FFFFFF;
+}
+
+.carousel-list {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-list .item {
+    width: 100%;
+}
+.carousel-list .invalid {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    z-index: -1;
+    animation: carousel-out 1s;
+}
+.carousel-list .invalid2 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    z-index: -1;
+    animation: carousel-out-right 1s;
+}
+.carousel-list .active {
+    width: 100%;
+    display: block;
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+    animation: carousel-enter 1s;
+}
+.carousel-list .active2 {
+    width: 100%;
+    display: block;
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+    animation: carousel-enter-right 1s;
+}
+@keyframes carousel-out {
+    0% {
+        left: 0;
+        opacity: 1;
+    }
+    100% {
+        left: -100%;
+        opacity: 0.8;
+    }
+}
+@keyframes carousel-out-right {
+    0% {
+        left: 0;
+        opacity: 1;
+    }
+    100% {
+        left: 100%;
+        opacity: 0.8;
+    }
+}
+@keyframes carousel-enter {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: 0;
+    }
+}
+@keyframes carousel-enter-right {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 0;
+    }
+}
+.carousel-list img {
+    width: 100%;
+}
+
+.happening-description {
+    margin: 20px 0 120px 0;
+    text-align: center;
+}
+
+.happening-description-default, .happening-description-hidden {
+    line-height:22px;
+    text-align: left;
+}
+
+.happening-description-hidden {
+    margin-top: 10px;
+}
+
+.hd-show-button {
+    width: 120px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    border: 1px solid #000000;
+    background: #FFFFFF;
+    margin: 20px auto 40px;
+}
+
+.msd-container {
+    margin: 70px auto 160px;
+    width: 1000px;
+}
+
+.msd-title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.msd-type-list {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+.msd-container .dropdown-menu{
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    box-shadow: 3px 4px 6px 0 rgba(87,87,87,0.09);
+    width: 80px;
+    min-width: 80px;
+    left: calc(50% + 80px);
+}
+.msd-container .dropdown-menu li{
+    margin: 0!important;
+    width: 100% !important;
+}
+.msd-type-list li {
+    user-select: none;
+    cursor: pointer;
+    margin: 0 10%;
+    display: inline-block;
+    position: relative;
+}
+
+.msd-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.msd-img-container img {
+    width: 100%;
+    height: auto;
+}
+.msd-img-part{
+    width: 100%;
+}
+.msd-img-left-list {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    float: left;
+}
+
+.msd-img-right-list {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+
+.msd-img-mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: 500ms cubic-bezier(0.4, 0, 0.6, 1) all;
+}
+.msd-img-mask:hover {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.30);
+}
+
+.msd-img-mask p {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-size: 24px;
+}
+.msd-pop-up {
+    z-index: 10;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 610px;
+    height: 420px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-shadow: 3px 4px 6px 0 rgba(87,87,87,0.09);
+    transition: 300ms cubic-bezier(0.4, 0, 0.6, 1) all;
+}
+.msd-pop-up .msd-pop-up-close{
+    margin: 15px;
+    float:right;
+    width: 24px;
+    height:24px;
+    cursor: pointer;
+}
+.msd-pop-up h4{
+    margin: 50px 0 35px 75px;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+.msd-product-list{
+    display: flex;
+    margin: 0 75px 0 70px;
+}
+.msd-product-info{
+    cursor: pointer;
+    width: 150px;
+    margin: 0 8px 0 0;
+    text-align: center;
+}
+.msd-product-info img{
+    width: 150px;
+    height: 195px;
+}
+.msd-product-title{
+    margin: 10px 0 3px 0;
+}
+.msd-mask:before{
+    content: '';
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background-color: #FFFFFF;
+    opacity: 0.01;
+    overflow: hidden;
+}
+.msd-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.msd-content-left,.msd-content-right{
+    width: 50%;
+    position: relative;
+}
+.msd-product-button{
+    width: 168px;
+    height: 40px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom:60px;
+    z-index: 1;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #000000;
+    user-select: none;
+}
+.msd-content img{
+    width: 100%;
+}
+.msd-content-list img{
+    width: 100%;
+    margin-top: 20px;
+}
+@media (max-width: 1000px) {
+    .campaign-container {
+        margin: 40px auto 120px;
+        width: 768px;
+    }
+    .happening-container {
+        margin: 40px auto 120px;
+        width: 768px;
+    }
+    .msd-container {
+        margin: 40px auto 120px;
+        width: 768px;
+    }
+    .msd-container .dropdown-menu{
+        width: 80px;
+        min-width: 80px;
+        left: calc(50% + 55px);
+    }
+}
+@media (max-width: 768px) {
+    .campaign-container {
+        margin: 40px 0 120px;
+        width: 100%;
+    }
+
+    .campaign-title {
+        font-size: 20px;
+        color: #000000;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .campaign-description {
+        margin: 20px 0 80px 0;
+        text-align: center;
+    }
+
+    .happening-container {
+        margin: 40px 0 120px;
+        width: 100%;
+    }
+
+    .happening-title {
+        font-size: 20px;
+        color: #000000;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .happening-description {
+        margin: 20px 5% 40px 5%;
+    }
+    .msd-container {
+        margin: 40px auto 120px;
+        width: 100%;
+    }
+
+    .msd-container .dropdown-menu{
+        width: 80px;
+        min-width: 80px;
+        left: 54.5%;
+    }
+    .msd-content{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+        flex-direction:column-reverse ;
+    }
+    .msd-content-left,.msd-content-right{
+        width: 100%;
+    }
+    .msd-product-button{
+        left: 20px;
+        bottom: 60px;
+    }
+    .msd-content-list img{
+        margin-top: 6px;
+    }
+    .msd-pop-up{
+        width: 320px;
+        height: 270px;
+    }
+    .msd-pop-up .msd-pop-up-close{
+        margin: 10px;
+    }
+    .msd-pop-up h4{
+     margin:    30px 0 23px 25px;
+    }
+    .msd-product-info{
+        margin: 0 3px 0 0;
+    }
+    .msd-product-info:nth-child(3n){
+        margin: 0 ;
+    }
+    .msd-product-list{
+        display: flex;
+        margin: 0 25px 0 25px;
+    }
+    .msd-product-info img{
+        width: 85px;
+        height: 110px;
+    }
+    .msd-product-info p{
+        font-size: 12px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .carousel-dots{
+        bottom: 20px;
+    }
+}

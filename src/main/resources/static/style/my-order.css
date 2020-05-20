@@ -1,0 +1,217 @@
+/*我的订单*/
+.red-border {
+    border: 1px solid red;
+}
+.add-cursor{
+   cursor: pointer;
+}
+.head-style{
+    max-width: 1200px;
+}
+.my-order-container {
+    width: 70%;
+    margin: 71px auto;
+    margin-bottom: 0;
+    padding: 0 20px;
+    overflow-x: hidden;
+    max-width: 1200px;
+}
+
+.my-order-col {
+    margin: 0;
+    padding: 0;
+}
+.my-collection-nothing{
+    margin: 95px 0 150px;
+}
+.go-shopping button {
+    width: 140px;
+    height: 40px;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+}
+.payment-hr {
+    color: #DADADA;
+    width: 100%;
+    margin: 0;
+}
+
+ul {
+    margin: 0 ;
+    padding: 0 ;
+    list-style-type: none;
+}
+
+.my-order-left li {
+    margin-bottom: 35px;
+}
+
+.my-order-left li a {
+    font-size: 14px;
+    color: #808080;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 20px;
+}
+
+.my-order-actived {
+    color: #000 !important;
+    font-weight: bold;
+    font-size: 16px!important;
+}
+
+.my-order-title {
+    /*padding: 2%;*/
+    padding-bottom: 36px;
+    font-weight: 500;
+}
+
+.my-order-right ul {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.my-order-right li {
+    display: inline-block;
+    width: calc(100% / 5);
+}
+
+.my-order-right li a {
+    font-size: 12px;
+    color: #808080;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 20px;
+    width: 25%;
+    text-decoration: none;
+}
+
+.my-order-right li a:hover {
+    color: #000 !important;
+}
+
+.my-order-right li span {
+    padding: 3% 0;
+    border-bottom: 2px solid #fff;
+}
+
+.my-order-select-actived {
+    /*border-bottom: 2px solid #000 !important;*/
+    font-weight: bolder;
+}
+
+.my-order-select-actived a {
+    color: #000 !important;
+}
+
+.my-order-list-container {
+    margin-top: 5%;
+}
+
+
+.myorder-intimepay {
+    background-color: #000;
+    cursor: pointer;
+}
+
+.my-order-item-header {
+    line-height: 20px;
+}
+.my-order-item-header-submit{
+    line-height: 24px;
+}
+.my-order-item-header-submit img{
+   width: 75px;
+    height: 24px;
+}
+
+.triangle-facing-right {
+    display: inline-block;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    width: 6px;
+    height: 6px;
+    transform: rotate(-45deg);
+    margin-left: 5px;
+    margin-bottom: 1px;
+}
+.myorder-transaction{
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.border-bottom-color{
+    border-bottom: 1px solid #E5E5E5;
+}
+.my-order-padding .sc-detail-commoditytitle{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.my-collection-title {
+    font-size: 24px;
+    padding-bottom: 40px;
+    font-weight: 500;
+}
+
+.orderText{
+    margin-top: 5%;
+}
+
+.orderNoMore{
+    margin-top: 100px;
+}
+
+/*移动端样式*/
+@media (max-width: 767px) {
+    .my-collection-title {
+        padding: 34px 0;
+        font-size: 20px;
+    }
+    .my-order-title{
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    /*.my-order-container{*/
+        /*width: 85%;*/
+        /*margin-top: 0px;*/
+        /*!*overflow-x: hidden;*!*/
+    /*}*/
+    .my-order-container{
+        width: 100%;
+        margin-top: 0px;
+        /*overflow-x: hidden;*/
+    }
+    /*.my-order-section{*/
+        /*!*margin-top: 20%;*!*/
+        /*margin-top: 54px;*/
+    /*}*/
+    .my-order-padding p{
+        padding-left: 3%;
+    }
+    .myorder-intimepay{
+        width: 60%;
+        margin-left: 40%;
+    }
+    .myorder-transaction{
+        width: 60%;
+        margin-left: 40%;
+    }
+    .my-order-item-header-submit{
+        line-height: 20px;
+    }
+    .my-order-list-container {
+        margin-top: 50px;
+        padding: 0 10px 0;
+    }
+
+}
+
+/*针对第二种头部样式*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .my-order-container{
+        width: 88%;
+    }
+}

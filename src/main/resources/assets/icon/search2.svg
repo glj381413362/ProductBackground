@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>搜索</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页_首屏" transform="translate(-379.000000, -171.000000)">
+            <g id="菜单" transform="translate(0.000000, 163.000000)">
+                <g id="icon/搜索" transform="translate(375.000000, 5.000000)">
+                    <g id="搜索">
+                        <g id="搜索-1" transform="translate(4.000000, 3.000000)">
+                            <g id="Group-4">
+                                <circle id="Oval" stroke="#131313" stroke-width="1.5" cx="7.5" cy="7.5" r="6.75"></circle>
+                                <path d="M13.6819805,10.8919796 L15.1819805,10.8919796 L15.1819805,18.1419796 C15.1819805,18.5561932 14.8461941,18.8919796 14.4319805,18.8919796 L14.4319805,18.8919796 C14.017767,18.8919796 13.6819805,18.5561932 13.6819805,18.1419796 L13.6819805,10.8919796 Z" id="Rectangle-5" fill="#131313" transform="translate(14.431981, 14.891980) rotate(-45.000000) translate(-14.431981, -14.891980) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
