@@ -1,133 +1,140 @@
 .about-content {
-    width: 66%;
-    margin: auto;
+  width: 66%;
+  margin: auto;
 }
 
 .about-viewmain-pic img {
-    width: 100%;
+  width: 100%;
 }
 
 .about-logo-title {
-    margin: 70px 0 20px 0;
+  margin: 70px 0 20px 0;
 }
 
 .about-logo-info {
-    display: inline-block;
-    text-align: center;
+  display: inline-block;
+  text-align: center;
 }
 
 .about-logo-info {
-    margin: 15px 20% 0 20%;
+  margin: 15px 20% 0 20%;
 }
-.about-logo-info p{
-    line-height: 30px;
+
+.about-logo-info p {
+  line-height: 30px;
 }
+
 .about-setaddress-info {
-    display: inline-block;
-    padding: 0 10px;
+  display: inline-block;
+  padding: 0 10px;
 }
-.province-detail,.city-detail{
-    border-bottom: 1px solid #000000;
+
+.province-detail, .city-detail {
+  border-bottom: 1px solid #000000;
 }
 
 .about-setaddress-info select {
-    padding: 3px 0;
-    width:90px;
-    appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    border: none;
+  padding: 3px 0;
+  width: 90px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
 }
 
 .glyphicon-chevron-down {
-    position: absolute;
-    right: 0;
-    top: 7px;
-    font-size: 12px;
-    pointer-events:none;
+  position: absolute;
+  right: 0;
+  top: 7px;
+  font-size: 12px;
+  pointer-events: none;
 }
 
 .about-address {
-    padding: 25px;
+  padding: 25px;
 }
 
 .about-address-info {
-    display: inline-block;
-    width: 70%;
+  display: inline-block;
+  width: 70%;
 }
 
 .about-address-search {
-    display: inline-block;
+  display: inline-block;
 }
 
 .about-address-btn {
-    width: 100px;
-    height: 40px;
-    background-color: #ffffff;
-    border: 1px solid #000000;
-    position: relative;
-    top: -7px;
+  width: 100px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  position: relative;
+  top: -7px;
 }
 
 .about-address-btn:focus {
-    border: 1px solid #000000;
-    box-shadow: none;
+  border: 1px solid #000000;
+  box-shadow: none;
 }
 
 .about-links-title {
-    margin-top: 55px;
+  margin-top: 55px;
 }
 
 .about-links-img {
-    margin-top: 60px;
+  margin-top: 60px;
 }
-.mapContent{
-    display: flex;
-    justify-content: center;
-    height: 300px;
+
+.mapContent {
+  display: flex;
+  justify-content: center;
+  height: 300px;
 }
-.select-trans{
-    background: transparent;
-    position: relative;
-    z-index: 1;
+
+.select-trans {
+  background: transparent;
+  position: relative;
+  z-index: 1;
 }
+
 @media (max-width: 767px) {
-    .about-content {
-        width: 100%;
-        margin: auto;
-        padding: 0;
-    }
+  .about-content {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
 
-    .about-logo-title {
-        margin: 40px 0 30px 0;
-    }
+  .about-logo-title {
+    margin: 40px 0 30px 0;
+  }
 
-    .about-footer {
-        margin-top: 150px;
-        background-color: #000000;
-        padding: 20px;
-    }
+  .about-footer {
+    margin-top: 150px;
+    background-color: #000000;
+    padding: 20px;
+  }
 
-    .glyphicon-plus {
-        position: relative;
-        top: 3px
-    }
+  .glyphicon-plus {
+    position: relative;
+    top: 3px
+  }
 
-    .about-address-search {
-        display: block;
-        margin-top: 50px;
-    }
+  .about-address-search {
+    display: block;
+    margin-top: 50px;
+  }
 
-    .about-links-title {
-        margin-top: 50px;
-        margin-bottom: 20px;
-    }
+  .about-links-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
 
-    .about-logo-info {
-        margin: 15px;
-    }
-    .about-setaddress-info select {
-        padding: 3px 0;
-        width: 80px;
-    }
+  .about-logo-info {
+    margin: 15px;
+  }
+
+  .about-setaddress-info select {
+    padding: 3px 0;
+    width: 80px;
+  }
 }

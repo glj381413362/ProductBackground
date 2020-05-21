@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
-    <title>icon/筛选</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="商品详情" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="PC商品列表" transform="translate(-1085.000000, -229.000000)" stroke="#131313">
-            <g id="icon/筛选" transform="translate(1084.000000, 228.000000)">
-                <g id="Group-16">
-                    <path d="M5.47745733,13 L5.47745733,6.70340196 L2.31482985,3.7283803 C1.91255652,3.34996967 1.89321198,2.71710026 2.27162262,2.31482693 C2.46060805,2.11392402 2.72418148,2 3.00000292,2 L12.5808778,2 C13.1331625,2 13.5808778,2.44771525 13.5808778,3 C13.5808778,3.30725498 13.4396294,3.59745396 13.1978163,3.78701138 L9.47745733,6.70340196 L9.47745733,15" id="Path-2"></path>
-                </g>
-            </g>
+<svg height="14px" version="1.1" viewBox="0 0 14 14" width="14px" xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+  <title>icon/筛选</title>
+  <desc>Created with Sketch.</desc>
+  <defs></defs>
+  <g fill="none" fill-rule="evenodd" id="商品详情" stroke="none" stroke-linecap="round" stroke-linejoin="round"
+    stroke-width="1">
+    <g id="PC商品列表" stroke="#131313" transform="translate(-1085.000000, -229.000000)">
+      <g id="icon/筛选" transform="translate(1084.000000, 228.000000)">
+        <g id="Group-16">
+          <path
+            d="M5.47745733,13 L5.47745733,6.70340196 L2.31482985,3.7283803 C1.91255652,3.34996967 1.89321198,2.71710026 2.27162262,2.31482693 C2.46060805,2.11392402 2.72418148,2 3.00000292,2 L12.5808778,2 C13.1331625,2 13.5808778,2.44771525 13.5808778,3 C13.5808778,3.30725498 13.4396294,3.59745396 13.1978163,3.78701138 L9.47745733,6.70340196 L9.47745733,15"
+            id="Path-2"></path>
         </g>
+      </g>
     </g>
+  </g>
 </svg>

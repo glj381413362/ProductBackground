@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
-    <title>成功</title>
-    <desc>Created with Sketch.</desc>
-    <g id="03-商品详情" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="详情_加入提示" transform="translate(-934.000000, -482.000000)" stroke="#FFFFFF">
-            <g id="分组" transform="translate(820.000000, 452.000000)">
-                <g id="Group-3" transform="translate(114.000000, 30.000000)">
-                    <g id="Group-2" transform="translate(0.722222, 0.722222)">
-                        <circle id="Oval-Copy" cx="25.2777778" cy="25.2777778" r="25.2777778"></circle>
-                        <polyline id="Path-2" stroke-width="3" points="15.1666667 27.4444444 22.3888889 33.2222222 36.1111111 15.1666667"></polyline>
-                    </g>
-                </g>
-            </g>
+<svg height="52px" version="1.1" viewBox="0 0 52 52" width="52px" xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+  <title>成功</title>
+  <desc>Created with Sketch.</desc>
+  <g fill="none" fill-rule="evenodd" id="03-商品详情" stroke="none" stroke-width="1">
+    <g id="详情_加入提示" stroke="#FFFFFF" transform="translate(-934.000000, -482.000000)">
+      <g id="分组" transform="translate(820.000000, 452.000000)">
+        <g id="Group-3" transform="translate(114.000000, 30.000000)">
+          <g id="Group-2" transform="translate(0.722222, 0.722222)">
+            <circle cx="25.2777778" cy="25.2777778" id="Oval-Copy" r="25.2777778"></circle>
+            <polyline id="Path-2" points="15.1666667 27.4444444 22.3888889 33.2222222 36.1111111 15.1666667"
+              stroke-width="3"></polyline>
+          </g>
         </g>
+      </g>
     </g>
+  </g>
 </svg>

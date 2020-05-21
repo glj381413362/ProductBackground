@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
-    <title>play </title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="播放/暂停" transform="translate(-167.000000, -336.000000)">
-            <g id="play-2" transform="translate(167.000000, 336.000000)">
-                <g id="play">
-                    <g id="Group-4">
-                        <circle id="Oval" fill="#000000" opacity="0.6" cx="40" cy="40" r="40"></circle>
-                        <path d="M29,23.2208223 L29,58.0895226 C29,58.7522643 29.5372583,59.2895226 30.2,59.2895226 C30.4336409,59.2895226 30.6622,59.2213172 30.8576315,59.0932759 L57.4679554,41.6589258 C58.0223131,41.2957259 58.1772771,40.5518986 57.8140773,39.9975409 C57.7237097,39.8596115 57.6058849,39.7417866 57.4679554,39.6514191 L30.8576315,22.2170689 C30.3032738,21.8538691 29.5594465,22.0088331 29.1962466,22.5631908 C29.0682053,22.7586223 29,22.9871814 29,23.2208223 Z" id="Path" fill="#FFFFFF"></path>
-                    </g>
-                </g>
-            </g>
+<svg height="80px" version="1.1" viewBox="0 0 80 80" width="80px" xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+  <title>play</title>
+  <desc>Created with Sketch.</desc>
+  <g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1">
+    <g id="播放/暂停" transform="translate(-167.000000, -336.000000)">
+      <g id="play-2" transform="translate(167.000000, 336.000000)">
+        <g id="play">
+          <g id="Group-4">
+            <circle cx="40" cy="40" fill="#000000" id="Oval" opacity="0.6" r="40"></circle>
+            <path
+              d="M29,23.2208223 L29,58.0895226 C29,58.7522643 29.5372583,59.2895226 30.2,59.2895226 C30.4336409,59.2895226 30.6622,59.2213172 30.8576315,59.0932759 L57.4679554,41.6589258 C58.0223131,41.2957259 58.1772771,40.5518986 57.8140773,39.9975409 C57.7237097,39.8596115 57.6058849,39.7417866 57.4679554,39.6514191 L30.8576315,22.2170689 C30.3032738,21.8538691 29.5594465,22.0088331 29.1962466,22.5631908 C29.0682053,22.7586223 29,22.9871814 29,23.2208223 Z"
+              fill="#FFFFFF" id="Path"></path>
+          </g>
         </g>
+      </g>
     </g>
+  </g>
 </svg>

@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
-    <title>icon/close</title>
-    <desc>Created with Sketch.</desc>
-    <g id="icon/close" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="关闭" fill="#000000">
-            <g id="Group-2" transform="translate(11.870119, 11.690597) rotate(-315.000000) translate(-11.870119, -11.690597) translate(3.710119, 3.530597)">
-                <rect id="Rectangle-5" x="0" y="7.16307692" width="15.3827556" height="1.10769231"></rect>
-                <polygon id="Rectangle-5-Copy" transform="translate(7.691378, 7.716923) rotate(-270.000000) translate(-7.691378, -7.716923) " points="0.0113777778 7.16225641 15.3713778 7.16225641 15.3713778 8.27158974 0.0113777778 8.27158974"></polygon>
-            </g>
-        </g>
+<svg height="24px" version="1.1" viewBox="0 0 24 24" width="24px" xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+  <title>icon/close</title>
+  <desc>Created with Sketch.</desc>
+  <g fill="none" fill-rule="evenodd" id="icon/close" stroke="none" stroke-width="1">
+    <g fill="#000000" id="关闭">
+      <g id="Group-2"
+        transform="translate(11.870119, 11.690597) rotate(-315.000000) translate(-11.870119, -11.690597) translate(3.710119, 3.530597)">
+        <rect height="1.10769231" id="Rectangle-5" width="15.3827556" x="0" y="7.16307692"></rect>
+        <polygon id="Rectangle-5-Copy"
+          points="0.0113777778 7.16225641 15.3713778 7.16225641 15.3713778 8.27158974 0.0113777778 8.27158974"
+          transform="translate(7.691378, 7.716923) rotate(-270.000000) translate(-7.691378, -7.716923) "></polygon>
+      </g>
     </g>
+  </g>
 </svg>

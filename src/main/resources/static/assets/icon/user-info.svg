@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="23px" height="15px" viewBox="0 0 23 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
-    <title>icon/个人资料</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="个人中心" transform="translate(-246.000000, -581.000000)" fill="#000000">
-            <g id="icon/个人资料" transform="translate(246.000000, 581.000000)">
-                <g id="Group">
-                    <rect id="Rectangle" x="14" y="3" width="6" height="1"></rect>
-                    <rect id="Rectangle-Copy" x="14" y="6" width="6" height="1"></rect>
-                    <rect id="Rectangle-Copy-3" x="14" y="9" width="3" height="1"></rect>
-                    <path d="M1,1 L1,14 L22,14 L22,1 L1,1 Z M1,0 L22,0 C22.5522847,0 23,0.44771525 23,1 L23,14 C23,14.5522847 22.5522847,15 22,15 L1,15 C0.44771525,15 0,14.5522847 0,14 L0,1 C-1.11022302e-16,0.44771525 0.44771525,0 1,0 Z" id="Rectangle" fill-rule="nonzero"></path>
-                    <path d="M8,7 C9.1045695,7 10,6.1045695 10,5 C10,3.8954305 9.1045695,3 8,3 C6.8954305,3 6,3.8954305 6,5 C6,6.1045695 6.8954305,7 8,7 Z M8,8 C6.34314575,8 5,6.65685425 5,5 C5,3.34314575 6.34314575,2 8,2 C9.65685425,2 11,3.34314575 11,5 C11,6.65685425 9.65685425,8 8,8 Z" id="Oval" fill-rule="nonzero"></path>
-                    <path d="M13,14 C13,11.2385763 10.7614237,9 8,9 C5.23857625,9 3,11.2385763 3,14 L2,14 C2,10.6862915 4.6862915,8 8,8 C11.3137085,8 14,10.6862915 14,14 L13,14 Z" id="Combined-Shape" fill-rule="nonzero"></path>
-                </g>
-            </g>
+<svg height="15px" version="1.1" viewBox="0 0 23 15" width="23px" xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+  <title>icon/个人资料</title>
+  <desc>Created with Sketch.</desc>
+  <g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1">
+    <g fill="#000000" id="个人中心" transform="translate(-246.000000, -581.000000)">
+      <g id="icon/个人资料" transform="translate(246.000000, 581.000000)">
+        <g id="Group">
+          <rect height="1" id="Rectangle" width="6" x="14" y="3"></rect>
+          <rect height="1" id="Rectangle-Copy" width="6" x="14" y="6"></rect>
+          <rect height="1" id="Rectangle-Copy-3" width="3" x="14" y="9"></rect>
+          <path
+            d="M1,1 L1,14 L22,14 L22,1 L1,1 Z M1,0 L22,0 C22.5522847,0 23,0.44771525 23,1 L23,14 C23,14.5522847 22.5522847,15 22,15 L1,15 C0.44771525,15 0,14.5522847 0,14 L0,1 C-1.11022302e-16,0.44771525 0.44771525,0 1,0 Z"
+            fill-rule="nonzero" id="Rectangle"></path>
+          <path
+            d="M8,7 C9.1045695,7 10,6.1045695 10,5 C10,3.8954305 9.1045695,3 8,3 C6.8954305,3 6,3.8954305 6,5 C6,6.1045695 6.8954305,7 8,7 Z M8,8 C6.34314575,8 5,6.65685425 5,5 C5,3.34314575 6.34314575,2 8,2 C9.65685425,2 11,3.34314575 11,5 C11,6.65685425 9.65685425,8 8,8 Z"
+            fill-rule="nonzero" id="Oval"></path>
+          <path
+            d="M13,14 C13,11.2385763 10.7614237,9 8,9 C5.23857625,9 3,11.2385763 3,14 L2,14 C2,10.6862915 4.6862915,8 8,8 C11.3137085,8 14,10.6862915 14,14 L13,14 Z"
+            fill-rule="nonzero" id="Combined-Shape"></path>
         </g>
+      </g>
     </g>
+  </g>
 </svg>

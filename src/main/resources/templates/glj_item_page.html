@@ -1,33 +1,33 @@
 #for(item:items)
 #if((for.index)%2==0)
 <div class="pl-coupleimg">
-    #end
-    <div class="col-lg-6 col-xs-6 xs-col">
-        <div class="pl-img">
-            <a href="https://www.baidu.com">
-                <img src="#(item.mainFigure)" class="pl-show-media">
-                <img src="#(item.detailsFigure2)"
-                     class="pl-hover-media pl-hover-show hidden">
-                <div class="video-icon hidden-xs hidden">
+  #end
+  <div class="col-lg-6 col-xs-6 xs-col">
+    <div class="pl-img">
+      <a href="https://www.baidu.com">
+        <img src="#(item.mainFigure)" class="pl-show-media">
+        <img src="#(item.detailsFigure2)"
+             class="pl-hover-media pl-hover-show hidden">
+        <div class="video-icon hidden-xs hidden">
 
-                </div>
-            </a>
         </div>
-        <p class="pl-title-padding">#(item.title)</p>
-        <p class="">#(item.content)
-        </p>
-        <div class="set-color">
-            <div class="set-color-position">
-                <!--颜色通过background-color改变-->
-                <span class="colortype active"
-                      style="background-color:#880088"></span>
-                <span class="colortype"
-                      style="background-image:url('assets/icon/pl-white.svg')"></span>
-                <span class="colortype" style="background-color:#e5e5e5"></span>
-            </div>
-        </div>
+      </a>
     </div>
-    #if((for.index)%2==0)
+    <p class="pl-title-padding">#(item.title)</p>
+    <p class="">#(item.content)
+    </p>
+    <div class="set-color">
+      <div class="set-color-position">
+        <!--颜色通过background-color改变-->
+        <span class="colortype active"
+              style="background-color:#880088"></span>
+        <span class="colortype"
+              style="background-image:url('assets/icon/pl-white.svg')"></span>
+        <span class="colortype" style="background-color:#e5e5e5"></span>
+      </div>
+    </div>
+  </div>
+  #if((for.index)%2==0)
 </div>
 #end
 #end

@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 8</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="订单确认_无门店" transform="translate(-683.000000, -478.000000)">
-            <g id="Group-8" transform="translate(683.000000, 478.000000)">
-                <circle id="Oval" stroke="#000000" cx="7.5" cy="7.5" r="5"></circle>
-                <path d="M7,3 L8,3 L8,4.5 C8,4.77614237 7.77614237,5 7.5,5 L7.5,5 C7.22385763,5 7,4.77614237 7,4.5 L7,3 Z" id="Rectangle-3" fill="#000000"></path>
-                <path d="M3.5,6.5 L4.5,6.5 L4.5,8 C4.5,8.27614237 4.27614237,8.5 4,8.5 L4,8.5 C3.72385763,8.5 3.5,8.27614237 3.5,8 L3.5,6.5 Z" id="Rectangle-3-Copy-2" fill="#000000" transform="translate(4.000000, 7.500000) rotate(-90.000000) translate(-4.000000, -7.500000) "></path>
-                <path d="M10.5,6.5 L11.5,6.5 L11.5,8 C11.5,8.27614237 11.2761424,8.5 11,8.5 L11,8.5 C10.7238576,8.5 10.5,8.27614237 10.5,8 L10.5,6.5 Z" id="Rectangle-3-Copy-3" fill="#000000" transform="translate(11.000000, 7.500000) scale(-1, 1) rotate(-90.000000) translate(-11.000000, -7.500000) "></path>
-                <path d="M7,10 L8,10 L8,11.5 C8,11.7761424 7.77614237,12 7.5,12 L7.5,12 C7.22385763,12 7,11.7761424 7,11.5 L7,10 Z" id="Rectangle-3-Copy" fill="#000000" transform="translate(7.500000, 11.000000) scale(1, -1) translate(-7.500000, -11.000000) "></path>
-            </g>
-        </g>
+<svg height="15px" version="1.1" viewBox="0 0 15 15" width="15px" xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+  <title>Group 8</title>
+  <desc>Created with Sketch.</desc>
+  <g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1">
+    <g id="订单确认_无门店" transform="translate(-683.000000, -478.000000)">
+      <g id="Group-8" transform="translate(683.000000, 478.000000)">
+        <circle cx="7.5" cy="7.5" id="Oval" r="5" stroke="#000000"></circle>
+        <path
+          d="M7,3 L8,3 L8,4.5 C8,4.77614237 7.77614237,5 7.5,5 L7.5,5 C7.22385763,5 7,4.77614237 7,4.5 L7,3 Z"
+          fill="#000000" id="Rectangle-3"></path>
+        <path
+          d="M3.5,6.5 L4.5,6.5 L4.5,8 C4.5,8.27614237 4.27614237,8.5 4,8.5 L4,8.5 C3.72385763,8.5 3.5,8.27614237 3.5,8 L3.5,6.5 Z"
+          fill="#000000" id="Rectangle-3-Copy-2"
+          transform="translate(4.000000, 7.500000) rotate(-90.000000) translate(-4.000000, -7.500000) "></path>
+        <path
+          d="M10.5,6.5 L11.5,6.5 L11.5,8 C11.5,8.27614237 11.2761424,8.5 11,8.5 L11,8.5 C10.7238576,8.5 10.5,8.27614237 10.5,8 L10.5,6.5 Z"
+          fill="#000000" id="Rectangle-3-Copy-3"
+          transform="translate(11.000000, 7.500000) scale(-1, 1) rotate(-90.000000) translate(-11.000000, -7.500000) "></path>
+        <path
+          d="M7,10 L8,10 L8,11.5 C8,11.7761424 7.77614237,12 7.5,12 L7.5,12 C7.22385763,12 7,11.7761424 7,11.5 L7,10 Z"
+          fill="#000000" id="Rectangle-3-Copy"
+          transform="translate(7.500000, 11.000000) scale(1, -1) translate(-7.500000, -11.000000) "></path>
+      </g>
     </g>
+  </g>
 </svg>

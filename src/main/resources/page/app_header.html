@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<section class="head clearfix">
+  <!--头部 start-->
+  <!--客服-->
+  <div class="customer-service-container text-center visible-lg cursor-p">
+    <img src="assets/img/hua.png"><br>
+    <p class="font12 color-000 pd-T5">客</p>
+    <p class="font12 color-000">服</p>
+  </div>
+
+  <div class="lg-head clearfix">
+    <div class="syheader-container">
+      <div class="row sy-logistics-info-row">
+        <div class="col-lg-4 col-xs-12 sy-padding0 font12 sy-option-username">
+        </div>
+        <div class="col-lg-4 col-xs-4 text-center sy-padding0 aibo-nav-mobile-div homepage-logo">
+          <img src="assets/img/MO&amp;Co1.svg" onclick="routerTo('home-page.html')">
+        </div>
+        <div class="visible-xs col-xs-4 pull-right text-right aibo-nav-mobile-div">
+          <img src="assets/icon/shoping-bag.svg" onclick="routerTo('shopping-bag.html')">
+          <div class="shoppingCar-badge-mobile"><span class="badge">3</span></div>
+        </div>
+        <div class="col-lg-4 visible-lg sy-padding0 sy-option-nav pull-right">
+
+          <div class="row sy-logistics-info-row text-right">
+            <div class="col-lg-offset-3 col-lg-3 sy-padding0 font12 sy-option-username text-left">
+              <a href="javascript:login()" class="login-register-a display-none">登陆/注册</a>
+              <a href="#" class="sy-username-option">1E1234567890测试测试测试测试测试测试测试测试测试</a>
+            </div>
+            <div class="col-lg-2 sy-padding0 sy-option-nav-img">
+              <img src="assets/icon/my-center.svg">
+            </div>
+            <div class="col-lg-2 sy-padding0 sy-option-nav-img">
+              <img src="assets/icon/colllecttioning.svg" onclick="routerTo('my-collection.html')">
+            </div>
+            <!--购物车悬浮增加作用范围-->
+            <div class="shoping-bag-hover"></div>
+            <div class="col-lg-2 sy-padding0 text-right">
+                            <span
+                                class="shoppingCar-img-div sy-option-nav-img-span sy-option-nav-img">
+                                <img src="assets/icon/shoping-bag-pc.svg">
+                                <div class="shoppingCar-badge"><span class="badge">0</span></div>
+                            </span>
+              <div class="lg-shopCar-float text-left sy-shopping-list">
+                <p class="pd-TB10 ">您的购物袋中共有0件商品</p>
+
+                <div class="goods-foot">
+                  <div class="clearfix">
+                    <div class="col-lg-6 pd-L0 pd-R5">
+                      <button class="col-lg-12 btn btn-primary"
+                              onclick="routerTo('shopping-bag.html')">查看购物袋
+                      </button>
+                    </div>
+                    <div class="col-lg-6 pd-R0 pd-L5">
+                      <button class="col-lg-12 btn btn-default"
+                              onclick="routerTo('order-verify.html')">立即购买
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--下拉列表-->
+          <div class="sy-username font12 font-blod">
+            <ul>
+              <li><a href="my-information.html">修改个人资料</a></li>
+              <li><a href="javascript:loginout()">退出登录</a></li>
+            </ul>
+          </div>
+          <div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--导航栏-->
+  <div class="home-page-nav-container">
+    <!--PC端导航菜单-->
+    <div class="aibo-headnav">
+      <ul class="font16">
+        <li><span><a href="#" onclick="toNav('本周新品')">本周新品</a></span></li>
+        <li><span><a href="#" onclick="toNav('连衣裙')">连衣裙</a></span></li>
+        <li><span><a href="#" onclick="toNav('卫衣')">卫衣</a></span></li>
+        <li><span><a href="#" onclick="toNav('裤袋')">裤装</a></span></li>
+        <li><span class="aibo-all-products"><a href="#" onclick="toNav('全部商品')">全部商品</a></span></li>
+        <li><span><a href="#" onclick="toNav('品牌故事')">品牌故事</a></span></li>
+        <li><img class="nav-search" src="assets/img/search.svg" onclick="search()"></li>
+      </ul>
+    </div>
+    <!--PC端全部商品下拉列表-->
+    <div class="pulldown sy-total-products-pulldown font12 aibo-nav-pulldown display-none">
+      <div class="clearfix">
+        <div class="row sy-logistics-info-row">
+          <div class="col-lg-12 col-md-12 sy-padding0 aibo-nav-total-products">
+            <div class="row " id="masonry">
+              <div class="col-lg-2 box">
+                <ul>
+                  <li class="sy-total-products-title">连衣裙</li>
+                  <li class="sy-total-products-item"><a href="#">中长裙</a></li>
+                  <li class="sy-total-products-item"><a href="#">中长裙</a></li>
+                  <li class="sy-total-products-item"><a href="#">中长裙</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--PC端搜索-->
+    <div class="head-search text-center hidden-xs display-none">
+      <div class="pc-search-content text-left pc-input-containder">
+        <div class="nav-search-container">
+          <img class="nav-search" src="assets/img/search.svg">
+        </div>
+        <input class="search-input search-product-info pc-input-serch" type="text"
+               placeholder="请输入您要搜索的商品信息"
+               style="outline: none;">
+      </div>
+      <button class="btn-default pd-LR15 mg-LR15 pc-search-btn">搜索</button>
+      <div class="pc-search-close-img"><img onclick="closeSearch()" src="assets/icon/delete.svg"
+                                            alt="关闭">
+      </div>
+      <div class="search-pulldown-new search-pulldown">
+        <div class=" pd-TB10 clearfix search-product-info-result homepage-search-resresult">
+          <ul class="pulldown-list">
+            <li class="pd-TB10 font12 color-80">快速链接</li>
+            <li class="pulldown-item"><a href="#">中长连衣裙</a></li>
+            <li class="pulldown-item"><a href="#">短袖连衣裙</a></li>
+          </ul>
+        </div>
+        <div class="pd-TB10 clearfix history-search homepage-history-search">
+          <ul class="pulldown-list">
+            <li class="pd-TB10 font12 color-80">历史记录</li>
+            <li class="pulldown-item text-autohidden"><a href="#">摇滚街头摇滚街头摇滚街头摇滚街头摇滚街头</a></li>
+            <li class="pulldown-item"><a href="#">运行风</a></li>
+          </ul>
+          <ul class="pulldown-list">
+            <li class="pd-TB10 font12 color-80">热门专题推荐</li>
+            <li class="pulldown-item"><a href="#">官网限定款</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!--头部 end-->
+</html>
+
+
+

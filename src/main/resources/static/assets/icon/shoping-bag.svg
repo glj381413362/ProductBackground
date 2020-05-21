@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
-    <title>购物袋</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="首页_首屏" transform="translate(-377.000000, -124.000000)">
-            <g id="head" transform="translate(0.000000, 107.000000)">
-                <g id="icon/购物袋" transform="translate(375.000000, 16.000000)">
-                    <g id="购物袋">
-                        <g id="Group-2">
-                            <path d="M5.15205252,6.75 C4.505948,6.75 3.96631258,7.24239071 3.90728076,7.88579283 L2.89803642,18.8857928 C2.89455275,18.9237622 2.89280817,18.9618711 2.89280817,19 C2.89280817,19.6903559 3.45245224,20.25 4.14280817,20.25 L19.7145228,20.25 C19.7526516,20.25 19.7907605,20.2482554 19.8287299,20.2447718 C20.5161984,20.1816969 21.0223694,19.5732613 20.9592945,18.8857928 L19.9500502,7.88579283 C19.8910184,7.24239071 19.3513829,6.75 18.7052784,6.75 L5.15205252,6.75 Z" id="Rectangle-6" stroke="#131313" stroke-width="1.5"></path>
-                            <path d="M7.75,6.75 L16.25,6.75 L16.25,6.5 C16.25,4.15278981 14.3472102,2.25 12,2.25 C9.65278981,2.25 7.75,4.15278981 7.75,6.5 L7.75,6.75 Z" id="Rectangle-7" stroke="#131313" stroke-width="1.5"></path>
-                            <rect id="Rectangle-3" fill="#131313" x="7" y="6" width="1.5" height="4" rx="0.75"></rect>
-                            <rect id="Rectangle-3-Copy" fill="#131313" x="15.5" y="6" width="1.5" height="4" rx="0.75"></rect>
-                        </g>
-                    </g>
-                </g>
+<svg height="20px" version="1.1" viewBox="0 0 20 20" width="20px" xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+  <title>购物袋</title>
+  <desc>Created with Sketch.</desc>
+  <defs></defs>
+  <g fill="none" fill-rule="evenodd" id="首页" stroke="none" stroke-width="1">
+    <g id="首页_首屏" transform="translate(-377.000000, -124.000000)">
+      <g id="head" transform="translate(0.000000, 107.000000)">
+        <g id="icon/购物袋" transform="translate(375.000000, 16.000000)">
+          <g id="购物袋">
+            <g id="Group-2">
+              <path
+                d="M5.15205252,6.75 C4.505948,6.75 3.96631258,7.24239071 3.90728076,7.88579283 L2.89803642,18.8857928 C2.89455275,18.9237622 2.89280817,18.9618711 2.89280817,19 C2.89280817,19.6903559 3.45245224,20.25 4.14280817,20.25 L19.7145228,20.25 C19.7526516,20.25 19.7907605,20.2482554 19.8287299,20.2447718 C20.5161984,20.1816969 21.0223694,19.5732613 20.9592945,18.8857928 L19.9500502,7.88579283 C19.8910184,7.24239071 19.3513829,6.75 18.7052784,6.75 L5.15205252,6.75 Z"
+                id="Rectangle-6" stroke="#131313" stroke-width="1.5"></path>
+              <path
+                d="M7.75,6.75 L16.25,6.75 L16.25,6.5 C16.25,4.15278981 14.3472102,2.25 12,2.25 C9.65278981,2.25 7.75,4.15278981 7.75,6.5 L7.75,6.75 Z"
+                id="Rectangle-7" stroke="#131313" stroke-width="1.5"></path>
+              <rect fill="#131313" height="4" id="Rectangle-3" rx="0.75" width="1.5" x="7"
+                y="6"></rect>
+              <rect fill="#131313" height="4" id="Rectangle-3-Copy" rx="0.75" width="1.5" x="15.5"
+                y="6"></rect>
             </g>
+          </g>
         </g>
+      </g>
     </g>
+  </g>
 </svg>

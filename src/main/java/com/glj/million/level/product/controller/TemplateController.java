@@ -1,6 +1,5 @@
 package com.glj.million.level.product.controller;
 
-import com.glj.million.level.product.service.ItemService;
 import com.glj.million.level.product.service.TemplateService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -22,46 +21,40 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class TemplateController {
 
-	private final TemplateService templateService;
+  private final TemplateService templateService;
 
 
-	/**
-	 * 修改模板
-	 * @param model
-	 * @return
-	 */
-	@RequestMapping("editTemplate")
-	public String editTemplate(Model model)throws Exception {
-		String tplStr = templateService.getFileTemplateString();
-		model.addAttribute("tplStr",tplStr);
-		return "glj_edit_template";
-	}
+  /**
+   * 修改模板
+   */
+  @RequestMapping("editTemplate")
+  public String editTemplate(Model model) throws Exception {
+    String tplStr = templateService.getFileTemplateString();
+    model.addAttribute("tplStr", tplStr);
+    return "glj_edit_template";
+  }
 
-	/**
-	 * 保存模板
-	 * @param model
-	 * @return
-	 */
-	@RequestMapping("saveTemplate")
-	public String saveTemplate(Model model, String content)throws Exception {
+  /**
+   * 保存模板
+   */
+  @RequestMapping("saveTemplate")
+  public String saveTemplate(Model model, String content) throws Exception {
 
-		templateService.saveFileTemplateString(content);
+    templateService.saveFileTemplateString(content);
 
-		String msg = "保存成功。";
-		model.addAttribute("msg", msg);
-		return "success";
-	}
+    String msg = "保存成功。";
+    model.addAttribute("msg", msg);
+    return "success";
+  }
 
 
-	/**
-	 * 模板管理
-	 * @param model
-	 * @return
-	 */
-	@RequestMapping("templates")
-	public String templates(Model model) {
+  /**
+   * 模板管理
+   */
+  @RequestMapping("templates")
+  public String templates(Model model) {
 
-		return "glj_templates";
-	}
+    return "glj_templates";
+  }
 
 }

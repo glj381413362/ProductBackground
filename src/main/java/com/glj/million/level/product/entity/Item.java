@@ -1,224 +1,225 @@
 package com.glj.million.level.product.entity;
 
+import java.util.Date;
+import javax.persistence.Column;
+import javax.persistence.Id;
 import tk.mybatis.mapper.annotation.KeySql;
 
-import java.util.Date;
-import javax.persistence.*;
-
 public class Item {
-    @Id
-    @KeySql(useGeneratedKeys = true)
-    private Integer id;
 
-    private String title;
+  @Id
+  @KeySql(useGeneratedKeys = true)
+  private Integer id;
 
-    private String content;
+  private String title;
 
-    private String notes;
+  private String content;
 
-    private String fabric;
+  private String notes;
 
-    @Column(name = "main_figure")
-    private String mainFigure;
+  private String fabric;
 
-    @Column(name = "details_figure1")
-    private String detailsFigure1;
+  @Column(name = "main_figure")
+  private String mainFigure;
 
-    @Column(name = "details_figure2")
-    private String detailsFigure2;
+  @Column(name = "details_figure1")
+  private String detailsFigure1;
 
-    @Column(name = "last_generate")
-    private Date lastGenerate;
+  @Column(name = "details_figure2")
+  private String detailsFigure2;
 
-    @Column(name = "html_status")
-    private String htmlStatus;
+  @Column(name = "last_generate")
+  private Date lastGenerate;
 
-    private String location;
+  @Column(name = "html_status")
+  private String htmlStatus;
 
-    @Column(name = "template_name")
-    private String templateName;
+  private String location;
 
-    private String category;
+  @Column(name = "template_name")
+  private String templateName;
 
-    /**
-     * @return id
-     */
-    public Integer getId() {
-        return id;
-    }
+  private String category;
 
-    /**
-     * @param id
-     */
-    public void setId(Integer id) {
-        this.id = id;
-    }
+  /**
+   * @return id
+   */
+  public Integer getId() {
+    return id;
+  }
 
-    /**
-     * @return title
-     */
-    public String getTitle() {
-        return title;
-    }
+  /**
+   * @param id
+   */
+  public void setId(Integer id) {
+    this.id = id;
+  }
 
-    /**
-     * @param title
-     */
-    public void setTitle(String title) {
-        this.title = title == null ? null : title.trim();
-    }
+  /**
+   * @return title
+   */
+  public String getTitle() {
+    return title;
+  }
 
-    /**
-     * @return content
-     */
-    public String getContent() {
-        return content;
-    }
+  /**
+   * @param title
+   */
+  public void setTitle(String title) {
+    this.title = title == null ? null : title.trim();
+  }
 
-    /**
-     * @param content
-     */
-    public void setContent(String content) {
-        this.content = content == null ? null : content.trim();
-    }
+  /**
+   * @return content
+   */
+  public String getContent() {
+    return content;
+  }
 
-    /**
-     * @return notes
-     */
-    public String getNotes() {
-        return notes;
-    }
+  /**
+   * @param content
+   */
+  public void setContent(String content) {
+    this.content = content == null ? null : content.trim();
+  }
 
-    /**
-     * @param notes
-     */
-    public void setNotes(String notes) {
-        this.notes = notes == null ? null : notes.trim();
-    }
+  /**
+   * @return notes
+   */
+  public String getNotes() {
+    return notes;
+  }
 
-    /**
-     * @return fabric
-     */
-    public String getFabric() {
-        return fabric;
-    }
+  /**
+   * @param notes
+   */
+  public void setNotes(String notes) {
+    this.notes = notes == null ? null : notes.trim();
+  }
 
-    /**
-     * @param fabric
-     */
-    public void setFabric(String fabric) {
-        this.fabric = fabric == null ? null : fabric.trim();
-    }
+  /**
+   * @return fabric
+   */
+  public String getFabric() {
+    return fabric;
+  }
 
-    /**
-     * @return main_figure
-     */
-    public String getMainFigure() {
-        return mainFigure;
-    }
+  /**
+   * @param fabric
+   */
+  public void setFabric(String fabric) {
+    this.fabric = fabric == null ? null : fabric.trim();
+  }
 
-    /**
-     * @param mainFigure
-     */
-    public void setMainFigure(String mainFigure) {
-        this.mainFigure = mainFigure == null ? null : mainFigure.trim();
-    }
+  /**
+   * @return main_figure
+   */
+  public String getMainFigure() {
+    return mainFigure;
+  }
 
-    /**
-     * @return details_figure1
-     */
-    public String getDetailsFigure1() {
-        return detailsFigure1;
-    }
+  /**
+   * @param mainFigure
+   */
+  public void setMainFigure(String mainFigure) {
+    this.mainFigure = mainFigure == null ? null : mainFigure.trim();
+  }
 
-    /**
-     * @param detailsFigure1
-     */
-    public void setDetailsFigure1(String detailsFigure1) {
-        this.detailsFigure1 = detailsFigure1 == null ? null : detailsFigure1.trim();
-    }
+  /**
+   * @return details_figure1
+   */
+  public String getDetailsFigure1() {
+    return detailsFigure1;
+  }
 
-    /**
-     * @return details_figure2
-     */
-    public String getDetailsFigure2() {
-        return detailsFigure2;
-    }
+  /**
+   * @param detailsFigure1
+   */
+  public void setDetailsFigure1(String detailsFigure1) {
+    this.detailsFigure1 = detailsFigure1 == null ? null : detailsFigure1.trim();
+  }
 
-    /**
-     * @param detailsFigure2
-     */
-    public void setDetailsFigure2(String detailsFigure2) {
-        this.detailsFigure2 = detailsFigure2 == null ? null : detailsFigure2.trim();
-    }
+  /**
+   * @return details_figure2
+   */
+  public String getDetailsFigure2() {
+    return detailsFigure2;
+  }
 
-    /**
-     * @return last_generate
-     */
-    public Date getLastGenerate() {
-        return lastGenerate;
-    }
+  /**
+   * @param detailsFigure2
+   */
+  public void setDetailsFigure2(String detailsFigure2) {
+    this.detailsFigure2 = detailsFigure2 == null ? null : detailsFigure2.trim();
+  }
 
-    /**
-     * @param lastGenerate
-     */
-    public void setLastGenerate(Date lastGenerate) {
-        this.lastGenerate = lastGenerate;
-    }
+  /**
+   * @return last_generate
+   */
+  public Date getLastGenerate() {
+    return lastGenerate;
+  }
 
-    /**
-     * @return html_status
-     */
-    public String getHtmlStatus() {
-        return htmlStatus;
-    }
+  /**
+   * @param lastGenerate
+   */
+  public void setLastGenerate(Date lastGenerate) {
+    this.lastGenerate = lastGenerate;
+  }
 
-    /**
-     * @param htmlStatus
-     */
-    public void setHtmlStatus(String htmlStatus) {
-        this.htmlStatus = htmlStatus == null ? null : htmlStatus.trim();
-    }
+  /**
+   * @return html_status
+   */
+  public String getHtmlStatus() {
+    return htmlStatus;
+  }
 
-    /**
-     * @return location
-     */
-    public String getLocation() {
-        return location;
-    }
+  /**
+   * @param htmlStatus
+   */
+  public void setHtmlStatus(String htmlStatus) {
+    this.htmlStatus = htmlStatus == null ? null : htmlStatus.trim();
+  }
 
-    /**
-     * @param location
-     */
-    public void setLocation(String location) {
-        this.location = location == null ? null : location.trim();
-    }
+  /**
+   * @return location
+   */
+  public String getLocation() {
+    return location;
+  }
 
-    /**
-     * @return template_name
-     */
-    public String getTemplateName() {
-        return templateName;
-    }
+  /**
+   * @param location
+   */
+  public void setLocation(String location) {
+    this.location = location == null ? null : location.trim();
+  }
 
-    /**
-     * @param templateName
-     */
-    public void setTemplateName(String templateName) {
-        this.templateName = templateName == null ? null : templateName.trim();
-    }
+  /**
+   * @return template_name
+   */
+  public String getTemplateName() {
+    return templateName;
+  }
 
-    /**
-     * @return category
-     */
-    public String getCategory() {
-        return category;
-    }
+  /**
+   * @param templateName
+   */
+  public void setTemplateName(String templateName) {
+    this.templateName = templateName == null ? null : templateName.trim();
+  }
 
-    /**
-     * @param category
-     */
-    public void setCategory(String category) {
-        this.category = category == null ? null : category.trim();
-    }
+  /**
+   * @return category
+   */
+  public String getCategory() {
+    return category;
+  }
+
+  /**
+   * @param category
+   */
+  public void setCategory(String category) {
+    this.category = category == null ? null : category.trim();
+  }
 }

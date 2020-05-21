@@ -1,392 +1,425 @@
 /*注册登录样式*/
 
-
 .register-content {
-    width: 24%;
-    min-width: 300px;
-    max-width: 320px;
+  width: 24%;
+  min-width: 300px;
+  max-width: 320px;
 }
 
 /*手机快速登录/注册*/
 .register-title {
-    margin-top: 80px;
-    margin-bottom: 63px;
-    color: #000000;
-    letter-spacing: 0;
-    line-height: 24px;
-    font-weight: 500;
+  margin-top: 80px;
+  margin-bottom: 63px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: 500;
 }
-    /*手机号码*/
+
+/*手机号码*/
 .register-content .border-bottom {
-    border-bottom: 1px solid #000;
-    margin-bottom: 40px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 40px;
 }
 
 .number {
-    border: 0px;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075);
-    outline: none;
-    font-size: 18px;
-    line-height: 18px;
-    text-indent: 1em;
-    font-family: HelveticaNeue;
+  border: 0px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075);
+  outline: none;
+  font-size: 18px;
+  line-height: 18px;
+  text-indent: 1em;
+  font-family: HelveticaNeue;
 }
 
 .number:focus {
-    outline: none;
-    border: 0px;
-    box-shadow: 0 0 0px rgba(255, 255, 255, 0.4);
+  outline: none;
+  border: 0px;
+  box-shadow: 0 0 0px rgba(255, 255, 255, 0.4);
 }
 
 /*验证码*/
 .validate-code-item {
-    width: 12.5%;
+  width: 12.5%;
 }
 
 .validate-code-form {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
-.input-bottom{
-    border-bottom: 1px solid #000000;
-    width: 300px;
-}
-.verify-code-input{
-    width: 100%;
-    height: 40px;
-    border: none;
 
-    font-size: 18px;
+.input-bottom {
+  border-bottom: 1px solid #000000;
+  width: 300px;
 }
+
+.verify-code-input {
+  width: 100%;
+  height: 40px;
+  border: none;
+
+  font-size: 18px;
+}
+
 .form-group .validate-code {
-    text-indent: 0em;
-    border-bottom: 1px solid #000;
-    text-align: center;
-    font-family: HelveticaNeue-Medium;
-    font-size: 24px;
-    color: #000;
+  text-indent: 0em;
+  border-bottom: 1px solid #000;
+  text-align: center;
+  font-family: HelveticaNeue-Medium;
+  font-size: 24px;
+  color: #000;
 }
 
 /*修改input框placeholder样式*/
 .placeholder::-webkit-input-placeholder {
-    color: #CACACA;
+  color: #CACACA;
 }
 
 .placeholder::-moz-placeholder {
-    color: #CACACA;
+  color: #CACACA;
 }
 
 .placeholder:-ms-input-placeholder {
-    color: #CACACA;
+  color: #CACACA;
 }
 
 /*+86的样式*/
 .border-bottom .code {
-    font-size: 18px;
-    margin-left: -15px;
-    font-weight: normal;
+  font-size: 18px;
+  margin-left: -15px;
+  font-weight: normal;
 }
-.forget-password{
-    position: absolute;
-    top:13px;
-    right:-10px;
+
+.forget-password {
+  position: absolute;
+  top: 13px;
+  right: -10px;
 }
-.resent-again{
-    position: absolute;
-    top:13px;
-    right:0;
+
+.resent-again {
+  position: absolute;
+  top: 13px;
+  right: 0;
 }
+
 /*立即注册按钮*/
 .btn-size {
-    height: 40px;
+  height: 40px;
 }
 
 .margin {
-    margin-top: 20px;
-    margin-bottom: 50px;
-    color: #131313;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: #131313;
 }
 
 .margin:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /*社交账号登录左右的水平线*/
 .hr-l, .hr-r {
-    border-bottom: 1px solid #E5E5E5;
-    padding-top: 8px;
+  border-bottom: 1px solid #E5E5E5;
+  padding-top: 8px;
 }
-.hr-l{
-    position: relative;
-    left: 8px;
+
+.hr-l {
+  position: relative;
+  left: 8px;
 }
-.hr-r{
-    position: relative;
-    right: 8px;
+
+.hr-r {
+  position: relative;
+  right: 8px;
 }
+
 .img-H24 {
-    height: 24px;
+  height: 24px;
 }
 
 .margin30 {
-    margin-top: 30px;
-    margin-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 .level-center {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .form-horizontal .form-group {
-    margin-left: 0px;
-    margin-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /*key图标*/
 .img-margin {
-    margin-top: 11px;
-    margin-left: -11px;
+  margin-top: 11px;
+  margin-left: -11px;
 }
 
 /*输入正确时的√*/
 .img-tick {
-    margin: 8px 0px 0px 10px;
+  margin: 8px 0px 0px 10px;
 }
 
 .img-size {
-    height: 20px;
+  height: 20px;
 }
 
 .phone-input {
-    text-indent: 0px;
+  text-indent: 0px;
 }
 
 .modify-password p {
-    font-size: 24px;
-    line-height: 24px;
-    padding: 80px 0 60px 0;
+  font-size: 24px;
+  line-height: 24px;
+  padding: 80px 0 60px 0;
 }
 
 .modify-password-pdb {
-    padding-bottom: 200px;
-    margin-top: 46px;
+  padding-bottom: 200px;
+  margin-top: 46px;
 }
 
 .modify-password .form-control {
-    padding: 6px 2px;
+  padding: 6px 2px;
 }
 
-.border-bottom-mp{
-    position: relative;
-    border-bottom: 1px solid #000;
+.border-bottom-mp {
+  position: relative;
+  border-bottom: 1px solid #000;
 }
 
 .verify-code-time {
-    line-height: 40px;
+  line-height: 40px;
 }
-.cancel-info{
-    font-size: 18px;
-    position: absolute;
-    right: 25px;
-    top:25px;
-     width: 20px;
-     height: 20px;
-    border: none    ;
+
+.cancel-info {
+  font-size: 18px;
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  width: 20px;
+  height: 20px;
+  border: none;
 }
-#slider2 .ui-slider-wrap{
-    width: 280px!important;
+
+#slider2 .ui-slider-wrap {
+  width: 280px !important;
 }
-#slider3 .ui-slider-wrap{
-    width: 250px!important;
+
+#slider3 .ui-slider-wrap {
+  width: 250px !important;
 }
+
 #slider2 {
-    width: 280px;
+  width: 280px;
 }
-#slider3{
-    width: 250px;
+
+#slider3 {
+  width: 250px;
 }
-.slider-validation{
-    padding-bottom: 250px;
-    text-align: center;
+
+.slider-validation {
+  padding-bottom: 250px;
+  text-align: center;
 }
-.slider-validation p{
-    font-size: 24px;
-    line-height: 24px;
-    padding: 80px 0 60px 0;
+
+.slider-validation p {
+  font-size: 24px;
+  line-height: 24px;
+  padding: 80px 0 60px 0;
 }
+
 input[class$='checked'] {
-    width: 18px;
-    height: 18px;
-    opacity: 0;
-    margin: 0;
+  width: 18px;
+  height: 18px;
+  opacity: 0;
+  margin: 0;
 }
-.privacy{
-    height: 30px;
-    margin:0 auto 90px;
+
+.privacy {
+  height: 30px;
+  margin: 0 auto 90px;
 }
+
 .privacy-show {
-    display: inline-block;
-    position: relative;
-    top:6px;
-    right: 3px;
-    padding: 0px;
-    width: 15px;
-    height: 15px;
-    background-size: 100%;
-    border: 1px solid #000000;
+  display: inline-block;
+  position: relative;
+  top: 6px;
+  right: 3px;
+  padding: 0px;
+  width: 15px;
+  height: 15px;
+  background-size: 100%;
+  border: 1px solid #000000;
 }
-.privacy-show-content{
-    cursor: pointer;
-    text-decoration: underline;
+
+.privacy-show-content {
+  cursor: pointer;
+  text-decoration: underline;
 }
-.privacy-container{
-    width: 40%;
-    margin: auto;
-    max-width: 1200px;
-    line-height: 24px;
-    letter-spacing: 0;
-    padding-bottom: 200px;
+
+.privacy-container {
+  width: 40%;
+  margin: auto;
+  max-width: 1200px;
+  line-height: 24px;
+  letter-spacing: 0;
+  padding-bottom: 200px;
 }
-.privacy-title{
-    margin:30px 0 60px 0;
+
+.privacy-title {
+  margin: 30px 0 60px 0;
 }
-.privacy-content p{
-    margin: 6px 0;
-    font-size:12px;
+
+.privacy-content p {
+  margin: 6px 0;
+  font-size: 12px;
 }
-.privacy-content-part{
-    margin: 30px 0;
+
+.privacy-content-part {
+  margin: 30px 0;
 }
-.privacy-content-part .privacy-content-part-title{
-    font-size: 16px;
-    font-weight: 500;
+
+.privacy-content-part .privacy-content-part-title {
+  font-size: 16px;
+  font-weight: 500;
 
 }
-.privacy-content-return{
-    height: 100px;
-    width: 100%;
-    position: fixed;
-    background-color: white;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    z-index: 300;
+
+.privacy-content-return {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 300;
 }
-.privacy-content-return .privacy-content-return-btn{
-    height: 40px;
-    width: 140px;
-    border: 1px solid #000000;
-    background-color: #FFFFFF;
-    margin-top: 30px;
+
+.privacy-content-return .privacy-content-return-btn {
+  height: 40px;
+  width: 140px;
+  border: 1px solid #000000;
+  background-color: #FFFFFF;
+  margin-top: 30px;
 }
+
 /*登录/注册移动端样式*/
 @media (max-width: 767px) {
-    .xs-nav,
-    .xs-head-top,
-    .xs-footer {
-        display: none;
-    }
-    #slider3{
-       position: relative;
-        left:-20px;
-    }
-    .xs-bd-bottom {
-        border-bottom: 1px solid #E5E5E5;
-    }
+  .xs-nav,
+  .xs-head-top,
+  .xs-footer {
+    display: none;
+  }
 
-    /*手机快速登录/注册*/
-    .xs-register-title {
-        margin-top: 47px;
-        margin-bottom: 50px;
-        font-size: 20px;
-        line-height: 20px;
-    }
+  #slider3 {
+    position: relative;
+    left: -20px;
+  }
 
-    .xs-code {
-        padding-top: 8px;
-    }
+  .xs-bd-bottom {
+    border-bottom: 1px solid #E5E5E5;
+  }
 
-    .xs-btn-register {
-        margin-top: 36px;
-    }
+  /*手机快速登录/注册*/
+  .xs-register-title {
+    margin-top: 47px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 20px;
+  }
 
-    .xs-btn-size {
-        height: 42px;
-    }
+  .xs-code {
+    padding-top: 8px;
+  }
 
-    .xs-margin {
-        margin-top: 35px;
-        margin-bottom: 80px;
-    }
+  .xs-btn-register {
+    margin-top: 36px;
+  }
 
-    .xs-register-content {
-        width: 80%;
-        margin-top: 86px;
-        max-width: 320px;
-        min-width: 270px;
-    }
+  .xs-btn-size {
+    height: 42px;
+  }
 
-    .xs-login-margin {
-        margin-bottom: 90px;
-    }
+  .xs-margin {
+    margin-top: 35px;
+    margin-bottom: 80px;
+  }
 
-    /*.border-bottom-mp{*/
-        /*border-bottom: 0px solid #000;*/
-    /*}*/
+  .xs-register-content {
+    width: 80%;
+    margin-top: 86px;
+    max-width: 320px;
+    min-width: 270px;
+  }
 
-    .border-bottom-mp::after{
-        content: " ";
-        /*position: absolute;*/
-        left: 0;
-        width: 100%;
-        height: 0px;
-        background-image: -webkit-linear-gradient(0deg, transparent 50%, #808080 100%);
-        background-image: -ms-linear-gradient(0deg, transparent 50%, #808080 00%);
-        background-image: -o-linear-gradient(0deg, transparent 50%, #808080 00%);
-        background-image: linear-gradient(0deg, transparent 50%, #808080 00%);
-    }
+  .xs-login-margin {
+    margin-bottom: 90px;
+  }
 
-    /*.modify-password p {*/
-        /*padding: 0px 0 40px 0;*/
-        /*font-size: 20px;*/
-        /*line-height: 20px;*/
-    /*}*/
+  /*.border-bottom-mp{*/
+  /*border-bottom: 0px solid #000;*/
+  /*}*/
+  .border-bottom-mp::after {
+    content: " ";
+    /*position: absolute;*/
+    left: 0;
+    width: 100%;
+    height: 0px;
+    background-image: -webkit-linear-gradient(0deg, transparent 50%, #808080 100%);
+    background-image: -ms-linear-gradient(0deg, transparent 50%, #808080 00%);
+    background-image: -o-linear-gradient(0deg, transparent 50%, #808080 00%);
+    background-image: linear-gradient(0deg, transparent 50%, #808080 00%);
+  }
 
-    .modify-password .number {
-        font-size: 18px;
-        line-height: 16px;
-    }
-    .modify-password .btn{
-        font-size: 16px;
-        line-height: 16px;
-    }
+  /*.modify-password p {*/
+  /*padding: 0px 0 40px 0;*/
+  /*font-size: 20px;*/
+  /*line-height: 20px;*/
+  /*}*/
+  .modify-password .number {
+    font-size: 18px;
+    line-height: 16px;
+  }
 
-    .verify-code-time span{
-        font-weight: 200;
-    }
+  .modify-password .btn {
+    font-size: 16px;
+    line-height: 16px;
+  }
 
-    .slider-validation p{
-        font-size: 20px;
-        line-height: 20px;
-        font-weight: bold;
-        padding: 0px 0 60px 0;
-    }
-    .privacy-container {
-        width: 90%;
-        margin: auto;
-    }
-    .privacy-content-return{
-        height: 65px;
-    }
-    .privacy-content-return .privacy-content-return-btn{
-        height: 40px;
-        width: 90%;
-        margin: auto;
-        margin-top: 15px;
-    }
-    .privacy-title {
-        margin: 100px 0 60px 0;
-    }
+  .verify-code-time span {
+    font-weight: 200;
+  }
+
+  .slider-validation p {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 0px 0 60px 0;
+  }
+
+  .privacy-container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .privacy-content-return {
+    height: 65px;
+  }
+
+  .privacy-content-return .privacy-content-return-btn {
+    height: 40px;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  .privacy-title {
+    margin: 100px 0 60px 0;
+  }
 }

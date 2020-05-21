@@ -1,92 +1,205 @@
 /*我的积分*/
 .my-integral-header {
-    border: 1px solid #e8e8e8;
-    padding:60px 0;
-    margin-bottom: 30px;
+  border: 1px solid #e8e8e8;
+  padding: 60px 0;
+  margin-bottom: 30px;
 }
 
 .my-integral-header-container {
-    width: 90%;
-    margin: 0 auto;
-    position: relative;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
 }
 
 .my-integral-header-container a {
-    text-decoration: underline;
-    position: absolute;
-    right: 0;
-    top: 0;
-    line-height: 28px;
+  text-decoration: underline;
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 28px;
 }
 
 .my-integral-header-container p {
-    line-height: 28px;
+  line-height: 28px;
 }
 
 .my-integral-info {
-    position: relative;
-    top: -7px;
+  position: relative;
+  top: -7px;
 }
 
 .my-integral-table {
-    border: 1px solid #e8e8e8;
-    width: 100%;
+  border: 1px solid #e8e8e8;
+  width: 100%;
 }
 
 .my-integral-table td, .my-integral-table th {
-    /*border: 1px solid red;*/
+  /*border: 1px solid red;*/
 }
 
 .my-integral-table thead {
-    background-color: #FDFDFD;
+  background-color: #FDFDFD;
 }
 
 .my-integral-table {
-    border: none;
+  border: none;
 }
 
 .my-integral-table tr {
-    border-top: 1px solid #EFEFEF;
-    border-top: 1px solid #EFEFEF;
+  border-top: 1px solid #EFEFEF;
+  border-top: 1px solid #EFEFEF;
 }
 
 .my-integral-table th {
-    padding: 10px 3%;
+  padding: 10px 3%;
 
 }
 
 .mc-rule-details {
-    width: 560px;
-    height: 392px;
-    padding: 40px 70px;
-    border: 1px solid #e5e5e5;
-    position: fixed;
-    left: calc(((100% - 560px) / 2) + 9%);
-    top: calc((100% - 340px) / 2);
-    background-color: #FFFFFF;
-    z-index: 300;
+  width: 560px;
+  height: 392px;
+  padding: 40px 70px;
+  border: 1px solid #e5e5e5;
+  position: fixed;
+  left: calc(((100% - 560px) / 2) + 9%);
+  top: calc((100% - 340px) / 2);
+  background-color: #FFFFFF;
+  z-index: 300;
 }
 
 .mc-rule-container {
-    width: 418px;
-    height: 400px;
-    overflow-y: auto;
+  width: 418px;
+  height: 400px;
+  overflow-y: auto;
 }
 
 .mobile-close-rule img {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.mobile-coupon-rule-click {
+  padding: 70px 35px 27px 27px;
+  width: 80%;
+}
+
+.mc-mask::before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: #000000;
+  opacity: 0.5;
+  z-index: 30;
+}
+
+.my-integral-table tbody td {
+  padding: 20px 3%;
+  line-height: 30px;
+}
+
+.my-integral-table tr:nth-child(2n) {
+  background-color: #FDFDFD;
+}
+
+.my-integral-mobile-item {
+  line-height: 18px;
+  padding-bottom: 10px;
+}
+
+.my-integral-mobile-list li {
+  padding: 21px 0;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.my-integral-mobile-list li:nth-child(1) {
+  padding: 0 !important;
+}
+
+.my-integral-mobile-item div:nth-child(1) {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/*PC端样式*/
+@media (max-width: 1035px) and (min-width: 768px) {
+  .my-integral-header-container {
+    width: 80%;
+  }
+}
+
+/*移动端样式*/
+@media (max-width: 767px) {
+  .my-integral-header-container {
+    width: 90%;
+  }
+
+  .my-integral-header-container a {
+    line-height: 12px;
+  }
+
+  .my-integral-header {
+    margin-bottom: 20px;
+    padding: 30px 15px 20px;
+  }
+
+  .my-integral-info {
+    top: -13px;
+  }
+
+  .mobile-coupon-rule {
+    background-color: #fff;
+    position: fixed;
+    width: 0;
+    z-index: 99999;
+    top: 0;
+    right: 0;
+    transition: all .2s;
+    -moz-transition: all .2s; /* Firefox 4 */
+    -webkit-transition: all .2s; /* Safari 和 Chrome */
+    -o-transition: all .2s; /* Opera */
+  }
+
+  .mobile-coupon-rule-click {
+    padding: 40px 35px 27px 27px;
+    width: 80%;
+    -webkit-overflow-scrolling: touch;
+
+  }
+
+  .mobile-coupon-conten {
+    overflow-y: auto;
+  }
+
+  .mobile-close-rule img {
     width: 24px;
     height: 24px;
     position: absolute;
     right: 20px;
     top: 20px;
-}
+  }
 
-.mobile-coupon-rule-click {
-    padding: 70px 35px 27px 27px;
-    width: 80%;
-}
+  .mobile-coupon-rule-container {
+    padding-top: 30px;
+  }
 
-.mc-mask::before {
+  .mobile-coupon-rule-container p {
+    color: #000000;
+    text-align: left;
+    line-height: 20px;
+    padding-bottom: 20px;
+  }
+
+  .my-order-container .my-order-col {
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  .mc-mask::before {
     content: '';
     height: 100%;
     width: 100%;
@@ -94,118 +207,5 @@
     background-color: #000000;
     opacity: 0.5;
     z-index: 30;
-}
-
-.my-integral-table tbody td {
-    padding: 20px 3%;
-    line-height: 30px;
-}
-
-.my-integral-table tr:nth-child(2n) {
-    background-color: #FDFDFD;
-}
-
-.my-integral-mobile-item {
-    line-height: 18px;
-    padding-bottom: 10px;
-}
-
-.my-integral-mobile-list li {
-    padding: 21px 0;
-    border-bottom: 1px solid #E5E5E5;
-}
-
-.my-integral-mobile-list li:nth-child(1) {
-    padding: 0 !important;
-}
-
-.my-integral-mobile-item div:nth-child(1) {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-
-/*PC端样式*/
-@media (max-width: 1035px) and (min-width: 768px) {
-    .my-integral-header-container {
-        width: 80%;
-    }
-}
-
-/*移动端样式*/
-@media (max-width: 767px) {
-    .my-integral-header-container {
-        width: 90%;
-    }
-
-    .my-integral-header-container a {
-        line-height: 12px;
-    }
-
-    .my-integral-header {
-        margin-bottom: 20px;
-        padding: 30px 15px 20px;
-    }
-
-    .my-integral-info {
-        top: -13px;
-    }
-
-    .mobile-coupon-rule {
-        background-color: #fff;
-        position: fixed;
-        width: 0;
-        z-index: 99999;
-        top: 0;
-        right: 0;
-        transition: all .2s;
-        -moz-transition: all .2s; /* Firefox 4 */
-        -webkit-transition: all .2s; /* Safari 和 Chrome */
-        -o-transition: all .2s; /* Opera */
-    }
-
-    .mobile-coupon-rule-click {
-        padding: 40px 35px 27px 27px;
-        width: 80%;
-        -webkit-overflow-scrolling: touch;
-
-    }
-
-    .mobile-coupon-conten {
-        overflow-y: auto;
-    }
-
-    .mobile-close-rule img {
-        width: 24px;
-        height: 24px;
-        position: absolute;
-        right: 20px;
-        top: 20px;
-    }
-
-    .mobile-coupon-rule-container {
-        padding-top: 30px;
-    }
-
-    .mobile-coupon-rule-container p {
-        color: #000000;
-        text-align: left;
-        line-height: 20px;
-        padding-bottom: 20px;
-    }
-
-    .my-order-container .my-order-col {
-        margin: 0;
-        padding: 0 10px;
-    }
-
-    .mc-mask::before {
-        content: '';
-        height: 100%;
-        width: 100%;
-        position: fixed;
-        background-color: #000000;
-        opacity: 0.5;
-        z-index: 30;
-    }
+  }
 }

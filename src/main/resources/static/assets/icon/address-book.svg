@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="19px" height="18px" viewBox="0 0 19 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
-    <title>icon/地址簿</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="个人中心" transform="translate(-350.000000, -579.000000)" fill="#000000">
-            <g id="icon/地址簿" transform="translate(348.000000, 576.000000)">
-                <g id="地址簿">
-                    <g id="Group" transform="translate(2.000000, 3.000000)">
-                        <path d="M2,1 L2,17 L18,17 L18,1 L2,1 Z M2,0 L18,0 C18.5522847,0 19,0.44771525 19,1 L19,17 C19,17.5522847 18.5522847,18 18,18 L2,18 C1.44771525,18 1,17.5522847 1,17 L1,1 C1,0.44771525 1.44771525,0 2,0 Z" id="Rectangle" fill-rule="nonzero"></path>
-                        <path d="M10,8 C11.1045695,8 12,7.1045695 12,6 C12,4.8954305 11.1045695,4 10,4 C8.8954305,4 8,4.8954305 8,6 C8,7.1045695 8.8954305,8 10,8 Z M10,9 C8.34314575,9 7,7.65685425 7,6 C7,4.34314575 8.34314575,3 10,3 C11.6568542,3 13,4.34314575 13,6 C13,7.65685425 11.6568542,9 10,9 Z" id="Oval" fill-rule="nonzero"></path>
-                        <path d="M15,15 C15,12.2385763 12.7614237,10 10,10 C7.23857625,10 5,12.2385763 5,15 L4,15 C4,11.6862915 6.6862915,9 10,9 C13.3137085,9 16,11.6862915 16,15 L15,15 Z" id="Combined-Shape" fill-rule="nonzero"></path>
-                        <rect id="Rectangle" x="0" y="4" width="3" height="1"></rect>
-                        <rect id="Rectangle" x="0" y="8" width="3" height="1"></rect>
-                        <rect id="Rectangle" x="0" y="12" width="3" height="1"></rect>
-                    </g>
-                </g>
-            </g>
+<svg height="18px" version="1.1" viewBox="0 0 19 18" width="19px" xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+  <title>icon/地址簿</title>
+  <desc>Created with Sketch.</desc>
+  <g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1">
+    <g fill="#000000" id="个人中心" transform="translate(-350.000000, -579.000000)">
+      <g id="icon/地址簿" transform="translate(348.000000, 576.000000)">
+        <g id="地址簿">
+          <g id="Group" transform="translate(2.000000, 3.000000)">
+            <path
+              d="M2,1 L2,17 L18,17 L18,1 L2,1 Z M2,0 L18,0 C18.5522847,0 19,0.44771525 19,1 L19,17 C19,17.5522847 18.5522847,18 18,18 L2,18 C1.44771525,18 1,17.5522847 1,17 L1,1 C1,0.44771525 1.44771525,0 2,0 Z"
+              fill-rule="nonzero" id="Rectangle"></path>
+            <path
+              d="M10,8 C11.1045695,8 12,7.1045695 12,6 C12,4.8954305 11.1045695,4 10,4 C8.8954305,4 8,4.8954305 8,6 C8,7.1045695 8.8954305,8 10,8 Z M10,9 C8.34314575,9 7,7.65685425 7,6 C7,4.34314575 8.34314575,3 10,3 C11.6568542,3 13,4.34314575 13,6 C13,7.65685425 11.6568542,9 10,9 Z"
+              fill-rule="nonzero" id="Oval"></path>
+            <path
+              d="M15,15 C15,12.2385763 12.7614237,10 10,10 C7.23857625,10 5,12.2385763 5,15 L4,15 C4,11.6862915 6.6862915,9 10,9 C13.3137085,9 16,11.6862915 16,15 L15,15 Z"
+              fill-rule="nonzero" id="Combined-Shape"></path>
+            <rect height="1" id="Rectangle" width="3" x="0" y="4"></rect>
+            <rect height="1" id="Rectangle" width="3" x="0" y="8"></rect>
+            <rect height="1" id="Rectangle" width="3" x="0" y="12"></rect>
+          </g>
         </g>
+      </g>
     </g>
+  </g>
 </svg>

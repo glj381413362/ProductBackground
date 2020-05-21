@@ -1,47 +1,48 @@
 /* ---常见问题--- */
-.my-order-col{
-    margin-bottom: 160px;
+.my-order-col {
+  margin-bottom: 160px;
 }
 
-.my-order-title{
-    padding-bottom: 0;
-}
-.help-part{
-    margin-top: 60px;
+.my-order-title {
+  padding-bottom: 0;
 }
 
-.help-question{
-    font-size: 16px;
+.help-part {
+  margin-top: 60px;
 }
 
-.help-answer{
-    font-size: 12px;
-    margin-top: 10px;
-    line-height: 24px;
+.help-question {
+  font-size: 16px;
+}
+
+.help-answer {
+  font-size: 12px;
+  margin-top: 10px;
+  line-height: 24px;
 }
 
 /* ---支付相关--- */
-.payment{
-    margin-bottom: -20px;
-    clear: both;
+.payment {
+  margin-bottom: -20px;
+  clear: both;
 }
 
 /* ---退换--- */
-.return-rule{
-    width: 92% !important;
-    margin-top: 30px !important;
+.return-rule {
+  width: 92% !important;
+  margin-top: 30px !important;
 }
 
-.clearfloat{
-    clear: both;
+.clearfloat {
+  clear: both;
 }
 
-.add-rule{
-    margin: 30px 0 20px;
-    font-size: 14px;
-    line-height: 24px;
+.add-rule {
+  margin: 30px 0 20px;
+  font-size: 14px;
+  line-height: 24px;
 }
 
-.mg-B20{
-    margin-bottom: 20px;
+.mg-B20 {
+  margin-bottom: 20px;
 }

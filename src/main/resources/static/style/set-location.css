@@ -1,346 +1,407 @@
 /* ---头部--- */
-.store-mention{
-    width: 70%;
-    margin: 40px auto;
+.store-mention {
+  width: 70%;
+  margin: 40px auto;
 }
-.content-top{
-    display: flex;
-    margin-bottom: 24px;
+
+.content-top {
+  display: flex;
+  margin-bottom: 24px;
 }
-.right-top{
-    text-align: right;
+
+.right-top {
+  text-align: right;
 }
-.right-top .search{
-    text-align: left;
+
+.right-top .search {
+  text-align: left;
 }
-.content-part{
-    float: right;
+
+.content-part {
+  float: right;
 }
-.content-middle{
-    display: flex;
+
+.content-middle {
+  display: flex;
 }
-.mention-part{
-    flex: 1;
+
+.mention-part {
+  flex: 1;
 }
-.mention-part .sc-order-addresspc-set,.mention-part .sc-order-addresspc-selfset{
+
+.mention-part .sc-order-addresspc-set, .mention-part .sc-order-addresspc-selfset {
   border: none;
-    padding: 1px;
+  padding: 1px;
 }
-.mention-part>.bd-active{
-    border:1px solid #000000;
-    font-size: 16px;
-    color: #000000;
-    font-weight: 500;
-    padding-top: 5px;
-    padding-bottom: 5px;
+
+.mention-part > .bd-active {
+  border: 1px solid #000000;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 500;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
-.customer-bdactive{
-    border:1px solid #000000;
-    opacity: 1;
+
+.customer-bdactive {
+  border: 1px solid #000000;
+  opacity: 1;
 }
-.self-active .self-span{
-    color: #000000;
-    font-size: 16px;
+
+.self-active .self-span {
+  color: #000000;
+  font-size: 16px;
 }
 
 /* ---左侧页面样式-- */
-.store-mention-left{
-    margin-right: 40px;
+.store-mention-left {
+  margin-right: 40px;
 }
+
 /* ---收货地址--- */
-.left-row{
-    /* height: 100px; */
-    margin-top:10px;
-    border:1px dashed #cacaca;
+.left-row {
+  /* height: 100px; */
+  margin-top: 10px;
+  border: 1px dashed #cacaca;
 }
-.mar-top{
-    margin-top: 0;
+
+.mar-top {
+  margin-top: 0;
 }
-.label{
-    position: absolute;
-    top:3px;
-    left:-27px;
+
+.label {
+  position: absolute;
+  top: 3px;
+  left: -27px;
 }
 
 .label span {
-    font-size: 14px;
-    color: #000000;
-    letter-spacing: 0;
-    line-height: 35px;
-    text-align: left;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 35px;
+  text-align: left;
 }
+
 .radio {
-    display: none
+  display: none
 }
 
 .radioInput {
-    background-color: #fff;
-    border: 1px solid #000;
-    border-radius: 100%;
-    display: inline-block;
-    height: 16px;
-    margin-right: 10px;
-    margin-top: -1px;
-    vertical-align: middle;
-    width: 16px;
-    line-height: 1;
-    position: relative;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 100%;
+  display: inline-block;
+  height: 16px;
+  margin-right: 10px;
+  margin-top: -1px;
+  vertical-align: middle;
+  width: 16px;
+  line-height: 1;
+  position: relative;
 }
 
 .radio:checked + .radioInput:after {
-    background-color: #000;
-    border-radius: 100%;
-    content: "";
-    display: inline-block;
-    height: 8px;
-    margin-left: 3px;
-    margin-top: 3px;
-    width: 8px;
-    position: absolute;
+  background-color: #000;
+  border-radius: 100%;
+  content: "";
+  display: inline-block;
+  height: 8px;
+  margin-left: 3px;
+  margin-top: 3px;
+  width: 8px;
+  position: absolute;
 }
 
 .checkbox.pay-radioInput, .radio:checked + .checkbox.radioInput:after {
-    border-radius: 0
+  border-radius: 0
 }
 
 .radio:checked + .radioInput {
-    border: 1px solid #000;
+  border: 1px solid #000;
 }
 
-.boder-active{
-    border:1px solid #000;
-    color: #000000;
-}
-.sc-order-addresspc label{
-    font-weight: normal;
-
-}
-.address-active{
-    border:1px solid #000;
-    color: #000000;
-}
-.left-row-content{
-    padding: 5px 0 5px 35px;
-}
-.left-row p{
-    /* height: 24px; */
-    line-height: 24px;
-    position: relative;
+.boder-active {
+  border: 1px solid #000;
+  color: #000000;
 }
 
-.left-row-content .shopping-time{
-    display: flex;
+.sc-order-addresspc label {
+  font-weight: normal;
+
 }
-.left-row-content .shopping-time span{
-    flex: 1;
+
+.address-active {
+  border: 1px solid #000;
+  color: #000000;
 }
+
+.left-row-content {
+  padding: 5px 0 5px 35px;
+}
+
+.left-row p {
+  /* height: 24px; */
+  line-height: 24px;
+  position: relative;
+}
+
+.left-row-content .shopping-time {
+  display: flex;
+}
+
+.left-row-content .shopping-time span {
+  flex: 1;
+}
+
 /* ---电话图标--- */
-.shopping-time .phone-icon{
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    cursor: pointer;
-    background: url(../assets/icon/telepone2.svg);
-    background-size: cover;
-    vertical-align: text-bottom;
-    margin-right: 5px;
+.shopping-time .phone-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  cursor: pointer;
+  background: url(../assets/icon/telepone2.svg);
+  background-size: cover;
+  vertical-align: text-bottom;
+  margin-right: 5px;
 }
+
 /* ---左侧页面样式结束-- */
 /* --右侧页面样式---- */
 /* ---上部分--- */
-.right-top{
-    float: right;
-}
-.right-top button{
-    width: 70px;
-    height: 24px;
-    line-height: 10px;
-}
-.right-top .search{
-    display: inline-block;
-    width: 270px;
-    border-bottom: 1px solid gray;
-    margin-right: 5px;
-}
- .right-top .search-icon{
-    position: relative;
-     top:5px;
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    cursor: pointer;
-    background: url(../assets/icon/search.png);
-    background-size: cover;
-}
- .right-top input{
-    border-width: 0;
-}
- .right-top input::-webkit-input-placeholder{
-    color: #cacaca;
-}
- .right-top input::-moz-placeholder{
-    color: #cacaca;
-}
-t .right-top input::-ms-input-placeholder{
-    color: #cacaca;
+.right-top {
+  float: right;
 }
 
-.content-bottom{
-    margin:0px 0 50px 0;
-    /* height: 160px; */
-} 
-.content-bottom .bottom-detail{
-    background: #fbfbfb;
-    height: 60px;
-    line-height: 60px;
-    border: 1px solid #e5e5e5;
+.right-top button {
+  width: 70px;
+  height: 24px;
+  line-height: 10px;
 }
-.content-bottom input{
-    width: 60%;
-    height: 30px;
-    margin-left:10px;
+
+.right-top .search {
+  display: inline-block;
+  width: 270px;
+  border-bottom: 1px solid gray;
+  margin-right: 5px;
 }
-.content-bottom i{
-    width: 14px;
-    height: 14px;
-    display: inline-block;
-    cursor: pointer;
-    background: url(../assets/icon/bg-right.png);
-    background-size: cover;
-    vertical-align: text-top;
-    margin-right: 10px;
+
+.right-top .search-icon {
+  position: relative;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  cursor: pointer;
+  background: url(../assets/icon/search.png);
+  background-size: cover;
 }
-.content-bottom sup{
-    font-size: 14px;
-    vertical-align: sub;
-    margin-right: 3px;
-    color: #980000;
+
+.right-top input {
+  border-width: 0;
 }
-.btns-all{
-    margin-top:40px;
+
+.right-top input::-webkit-input-placeholder {
+  color: #cacaca;
 }
-.btns{
-    display: flex;
+
+.right-top input::-moz-placeholder {
+  color: #cacaca;
 }
-.btns .btn{
-    flex: 1;
+
+t .right-top input::-ms-input-placeholder {
+  color: #cacaca;
 }
-.btns .btncansel{
-    border: 1px solid #000;
-    margin-left: 20px;
+
+.content-bottom {
+  margin: 0px 0 50px 0;
+  /* height: 160px; */
 }
+
+.content-bottom .bottom-detail {
+  background: #fbfbfb;
+  height: 60px;
+  line-height: 60px;
+  border: 1px solid #e5e5e5;
+}
+
+.content-bottom input {
+  width: 60%;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.content-bottom i {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  cursor: pointer;
+  background: url(../assets/icon/bg-right.png);
+  background-size: cover;
+  vertical-align: text-top;
+  margin-right: 10px;
+}
+
+.content-bottom sup {
+  font-size: 14px;
+  vertical-align: sub;
+  margin-right: 3px;
+  color: #980000;
+}
+
+.btns-all {
+  margin-top: 40px;
+}
+
+.btns {
+  display: flex;
+}
+
+.btns .btn {
+  flex: 1;
+}
+
+.btns .btncansel {
+  border: 1px solid #000;
+  margin-left: 20px;
+}
+
 /* ---下部分--- */
-.store-mention-right .right-bottom{
-    background: url(../assets/img/diitu.png);
-    height: 100%;
-    /* width: 412px; */
-    background-size: cover;
+.store-mention-right .right-bottom {
+  background: url(../assets/img/diitu.png);
+  height: 100%;
+  /* width: 412px; */
+  background-size: cover;
 }
+
 @media (max-width: 960px) {
-    /* ---头部--- */
-    .shopping-car {
-        width: 88%;
-        margin: auto;
-    }
-    .store-mention{
-        /* height: 800px; */
-        width: 92%;
-        margin: 40px auto;
-        /* display: flex; */
-    }
+  /* ---头部--- */
+  .shopping-car {
+    width: 88%;
+    margin: auto;
+  }
+
+  .store-mention {
+    /* height: 800px; */
+    width: 92%;
+    margin: 40px auto;
+    /* display: flex; */
+  }
 }
+
 /* ---移动端样式--- */
-@media (max-width:767px){
-    /* ---头部--- */
-    .shopping-car {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-    .default-address{
-        margin:80px auto 0;
-        width: 100%;
-        padding: 0 30px;
-    }
-    .store-mention{
-        padding: 0 15px;
-        width: 100%;
-        margin: 80px 0 0 0;
-    }
-    .content-top{
-        margin-bottom: 0px;
-    }
-    .store-mention-left{
-        margin: 0;
-    }
-    .store-mention-left .left-row:first-child{
-        margin-top:15px;
-    }
-    .right-top .right-top input{
-        float: right;
-    }
-    .right-top  .search-icon{
-        position: absolute;
-        top:0;
-        right:0;
-    }
-    .right-top .search{
-        width: 168px;
-        position: relative;
-    }
-    .btns-all{
-        margin-top:0px;
-    }
-    .content-bottom{
-        width: 100%;
-        border-top: 1px solid #cacaca;
-        margin-bottom: 20px;
-        bottom: 0;
-        left: 0;
-    }
-    .content-bottom .bottom-detail{
-        height: auto;
-        background: #fff;
-        /* display: flex; */
-        border: none;
-        line-height: 30px;
-    }
-    .bottom-detail .input-flex{
-        flex: 1;
-    }
-    .btns-all{
-        margin: 10px 0 10px 0 ;
-        display: block;
-    }
-    .content-bottom .bottom-detail .col-lg-4{
-        margin-top:10px;
-        border-bottom:1px solid gray;
-    }
-    .content-bottom .bottom-detail .col-lg-4:last-child{
-        margin: 10px 0 0; 
-        border-bottom-width: 0;
-    }
-    .btns .btn{
-        height: 46px;
-    }
-    .btns .btncansel{
-        margin-right: 5px;
-        background: #fff;
-        border: 1px solid #000;
-    }
-    .fix-input{
-        display: flex;
-        margin-top:10px;
-    }
-    .fix-input .col-lg-6{
-        flex: 1;
-        border-bottom:1px solid gray;
-    }
-    .fix-input .col-lg-6:last-child{
-        margin-left:20px;
-    }
-    .content-bottom input {
-        margin-left: -5px;
-    }
+@media (max-width: 767px) {
+  /* ---头部--- */
+  .shopping-car {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .default-address {
+    margin: 80px auto 0;
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  .store-mention {
+    padding: 0 15px;
+    width: 100%;
+    margin: 80px 0 0 0;
+  }
+
+  .content-top {
+    margin-bottom: 0px;
+  }
+
+  .store-mention-left {
+    margin: 0;
+  }
+
+  .store-mention-left .left-row:first-child {
+    margin-top: 15px;
+  }
+
+  .right-top .right-top input {
+    float: right;
+  }
+
+  .right-top .search-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .right-top .search {
+    width: 168px;
+    position: relative;
+  }
+
+  .btns-all {
+    margin-top: 0px;
+  }
+
+  .content-bottom {
+    width: 100%;
+    border-top: 1px solid #cacaca;
+    margin-bottom: 20px;
+    bottom: 0;
+    left: 0;
+  }
+
+  .content-bottom .bottom-detail {
+    height: auto;
+    background: #fff;
+    /* display: flex; */
+    border: none;
+    line-height: 30px;
+  }
+
+  .bottom-detail .input-flex {
+    flex: 1;
+  }
+
+  .btns-all {
+    margin: 10px 0 10px 0;
+    display: block;
+  }
+
+  .content-bottom .bottom-detail .col-lg-4 {
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+  }
+
+  .content-bottom .bottom-detail .col-lg-4:last-child {
+    margin: 10px 0 0;
+    border-bottom-width: 0;
+  }
+
+  .btns .btn {
+    height: 46px;
+  }
+
+  .btns .btncansel {
+    margin-right: 5px;
+    background: #fff;
+    border: 1px solid #000;
+  }
+
+  .fix-input {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .fix-input .col-lg-6 {
+    flex: 1;
+    border-bottom: 1px solid gray;
+  }
+
+  .fix-input .col-lg-6:last-child {
+    margin-left: 20px;
+  }
+
+  .content-bottom input {
+    margin-left: -5px;
+  }
 
 }

@@ -1,95 +1,102 @@
 /*我的收藏*/
 
 .my-collection-list .my-order-col {
-    /*padding: 0 1.5% 0 0;*/
-    padding: 0 2.5% 0 0;
+  /*padding: 0 1.5% 0 0;*/
+  padding: 0 2.5% 0 0;
 }
-.my-collection-list{
-    margin-right: -1.5%
+
+.my-collection-list {
+  margin-right: -1.5%
 }
 
 .my-collecttion-img {
-    position: relative;
+  position: relative;
 }
-.actual-effect::before{
-    content: '';
-    position: absolute;
-    background: #fff;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    opacity: 0.6;
+
+.actual-effect::before {
+  content: '';
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.6;
 }
-.actual-effect-text{
-    z-index: 2;
-    font-size: 12px;
-    color: #0A0A0A;
-    line-height: 20px;
-    background: #F4F4F4;
-    position: absolute;
-    width: 35px;
-    height: 20px;
-    top: 0;
-    left: 0;
+
+.actual-effect-text {
+  z-index: 2;
+  font-size: 12px;
+  color: #0A0A0A;
+  line-height: 20px;
+  background: #F4F4F4;
+  position: absolute;
+  width: 35px;
+  height: 20px;
+  top: 0;
+  left: 0;
 }
-.opacity-set{
-    opacity: 0.3;
+
+.opacity-set {
+  opacity: 0.3;
 }
 
 .my-collection-list img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 
 }
 
 .my-collection-item-txt {
-    margin: 20px 0 40px 0;
+  margin: 20px 0 40px 0;
 }
 
 .my-collection-item-txt p {
-    padding: 3px 0;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+  padding: 3px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .old-price {
-    text-decoration: line-through;
-    opacity: 0.4;
+  text-decoration: line-through;
+  opacity: 0.4;
 }
 
 .my-collection-item-txt div a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .close-img {
-    width: 9% !important;
-    height: auto !important;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    z-index: 2;
+  width: 9% !important;
+  height: auto !important;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 2;
 }
 
 /*移动端样式*/
 @media (max-width: 767px) {
-    .my-collection-item-txt {
-        margin: 20px 0 34px 0;
-    }
-    .my-collection-list .my-order-col:nth-child(odd) {
-        padding: 0 3px 0 0;
-    }
+  .my-collection-item-txt {
+    margin: 20px 0 34px 0;
+  }
 
-    .my-collection-list .my-order-col:nth-child(even) {
-        padding: 0 0 0 3px;
-    }
-    .my-collection-list{
-        margin: 0 -6px;
-    }
-    .my-collection-container {
-        width: 100% !important;
-    }
+  .my-collection-list .my-order-col:nth-child(odd) {
+    padding: 0 3px 0 0;
+  }
+
+  .my-collection-list .my-order-col:nth-child(even) {
+    padding: 0 0 0 3px;
+  }
+
+  .my-collection-list {
+    margin: 0 -6px;
+  }
+
+  .my-collection-container {
+    width: 100% !important;
+  }
 }
