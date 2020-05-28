@@ -1,10 +1,12 @@
 spring:
   datasource:
-    url: ${DB_URL:jdbc:mysql://127.0.0.1:3306/product}?characterEncoding=utf8&useSSL=true&serverTimezone=UTC&allowMultiQueries=true
+    url: ${DB_URL:jdbc:mysql://gljmysql.server.com:3306/product}?characterEncoding=utf8&useSSL=true&serverTimezone=UTC&allowMultiQueries=true
     username: ${DB_USER_NAME:root}
     password: ${DB_PWD:840416}
   resources:
-    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,classpath:/page/,classpath:/temp/
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,classpath:/page/,classpath:/temp/,classpath:/temp2/
+server:
+  port: 8888
 
 #MyBatis显示SQL
 logging:
@@ -18,7 +20,10 @@ mybatis:
 
 nginx:
   html:
-    root: ${NGINX_HTML_ROOT:/Users/gongliangjun/workspace_msb/product/src/main/resources/temp/}
+    root: ${NGINX_HTML1_ROOT:/Users/gongliangjun/workspace_msb/product/src/main/resources/temp/}
+    roots: ${NGINX_HTML1_ROOT:/Users/gongliangjun/workspace_msb/product/src/main/resources/temp/},${NGINX_HTML2_ROOT:/Users/gongliangjun/workspace_msb/product/src/main/resources/temp2/}
+
+
 
 
 jfinal:

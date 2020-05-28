@@ -7,6 +7,7 @@ import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.glj.million.level.product.entity.Item;
 import com.glj.million.level.product.mapper.ItemMapper;
+import com.glj.million.level.product.util.CRC32Util;
 import com.jfinal.kit.Kv;
 import com.jfinal.template.Engine;
 import com.jfinal.template.Template;
@@ -31,14 +32,15 @@ import org.springframework.transaction.interceptor.TransactionAspectSupport;
 @Transactional
 public class ItemService {
 
-
   private static List<Integer> locks = new ArrayList<Integer>();
-  @Value(value = "${nginx.html.root}")
-  String htmlRoot;
+
+  @Value("#{'${nginx.html.roots}'.split(',')}")
+  List<String> htmlRoots;
+
   @Value(value = "${jfinal.templates.location}")
   String templatesLocation;
-  @Autowired
-  private ItemMapper itemMapper;
+
+  @Autowired private ItemMapper itemMapper;
 
   public Item insert(Item item) {
 
@@ -54,29 +56,24 @@ public class ItemService {
     return itemMapper.selectAll();
   }
 
-
   public void generateHtml(int id) {
-
     // 初始化模板引擎
     Engine engine = JFinalViewResolver.engine;
-
     // 从数据源，获取数据
     Item item = itemMapper.selectByPrimaryKey(id);
-    //c:/dev/uploads/
-
     // 前端模板用的键值对
     Kv kv = Kv.by("item", item);
-
     // 文件写入路径
     String fileName = "item" + id + ".html";
-    String filePath = htmlRoot;
+    // 这里和分发层的hash算法保持一致，不然生成的文件同步位置有问题
+    String filePath = getFilePath(item.getId());
     // 路径 直接能被用户访问
     File file = new File(filePath + fileName);
     // 开始渲染 输出文件
     Template template = engine.getTemplate(item.getTemplateName() + ".html");
     template.render(kv, file);
     item.setHtmlStatus("成功");
-    item.setLocation(htmlRoot + fileName);
+    item.setLocation(filePath + fileName);
     itemMapper.updateByPrimaryKeySelective(item);
   }
 
@@ -87,9 +84,7 @@ public class ItemService {
 
     // 初始化模板引擎
     Engine engine = JFinalViewResolver.engine;
-    // 文件写入路径
-
-    String filePath = htmlRoot;
+    String filePath;
     Set<String> collect = list.stream().map(Item::getTemplateName).collect(Collectors.toSet());
     Map<String, Template> templateMap = new HashMap<>();
     for (String tpl : collect) {
@@ -98,6 +93,8 @@ public class ItemService {
       templateMap.put(tpl, t);
     }
     for (Item item : list) {
+      // 这里和分发层的hash算法保持一致，不然生成的文件同步位置有问题
+      filePath = getFilePath(item.getId());
       String templateName = item.getTemplateName();
       // 获取模板
       Template template = templateMap.get(templateName);
@@ -109,7 +106,7 @@ public class ItemService {
         // 开始渲染 输出文件
         template.render(kv, file);
         item.setHtmlStatus("成功");
-        item.setLocation(htmlRoot + fileName);
+        item.setLocation(filePath + fileName);
       } catch (Exception e) {
         // 记日志
         item.setHtmlStatus("失败");
@@ -117,6 +114,22 @@ public class ItemService {
       itemMapper.updateByPrimaryKeySelective(item);
     }
     return list;
+  }
+
+  /**
+   * 根据id 获取生成文件的path
+   *
+   * @param id
+   * @author gongliangjun 2020-05-27 5:28 PM
+   * @return java.lang.String
+   */
+  private String getFilePath(Integer id) {
+    int index = (int) (CRC32Util.CRC32Long(id) % htmlRoots.size());
+    return htmlRoots.get(index);
+  }
+ private String getFilePath(String str) {
+   int index = (int) (CRC32Util.CRC32Long(str) % htmlRoots.size());
+   return htmlRoots.get(index);
   }
 
   // 创建系统首页 html
@@ -144,7 +157,7 @@ public class ItemService {
       kv.put("staticPage", staticPage);
       // 文件写入路径
       String fileName = "main_" + i + ".html";
-      String filePath = htmlRoot;
+      String filePath = getFilePath(i);
       // 路径 直接能被用户访问
       File file = new File(filePath + fileName);
       if (i != 1) {
@@ -217,7 +230,7 @@ public class ItemService {
     // 2. 比对这些id 在磁盘上有没有文件
     for (Item item : list) {
       String fileName = "item" + item.getId() + ".html";
-      File file = new File(htmlRoot + fileName);
+      File file = new File(getFilePath(item.getId()) + fileName);
       if (!file.exists()) {
         errorList.add(item);
       }
@@ -238,12 +251,15 @@ public class ItemService {
   // 访问的时候 list_1.html 代表第一页 前3页生成静态
   public void generateCategory() {
     // TODO: 2020/5/20 假设就4个类别
-    List<String> category = new ArrayList<String>() {{
-      add("A");
-      add("B");
-      add("C");
-      add("D");
-    }};
+    List<String> category =
+        new ArrayList<String>() {
+          {
+            add("A");
+            add("B");
+            add("C");
+            add("D");
+          }
+        };
 
     // 每页显示多少
     int pageSize = 2;
@@ -251,17 +267,24 @@ public class ItemService {
     for (String cate : category) {
 
       // 限制取出的数据量 两页数据
-      int total = itemMapper.selectCount(new Item() {{
-        setCategory(cate);
-      }});
+      int total =
+          itemMapper.selectCount(
+              new Item() {
+                {
+                  setCategory(cate);
+                }
+              });
       int pages = (total / pageSize) + 1;
       // 静态文件页数
       int staticPage = Math.min(2, (total / pageSize) + 1);
 
       // 取生成静态文件的数据
-      Item dataExample = new Item() {{
-        setCategory(cate);
-      }};
+      Item dataExample =
+          new Item() {
+            {
+              setCategory(cate);
+            }
+          };
       PageHelper.startPage(0, staticPage * pageSize);
       // 包含 staticPage* 页的数据
       List<Item> list = itemMapper.select(dataExample);
@@ -291,7 +314,7 @@ public class ItemService {
         kv.put("category", cate);
         // 文件写入路径
         String fileName = "list_" + cate + "_" + i + ".html";
-        String filePath = htmlRoot;
+        String filePath = getFilePath(cate+i);
         // 路径 直接能被用户访问
         File file = new File(filePath + fileName);
         // 开始渲染 输出文件
@@ -301,7 +324,5 @@ public class ItemService {
         template.render(kv, file);
       }
     }
-
   }
-
 }

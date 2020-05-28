@@ -21,9 +21,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class TemplateService {
 
-  @Value(value = "${nginx.html.root}")
-  String htmlRoot;
-
   @Value(value = "${jfinal.templates.location}")
   String templatesLocation;
 
