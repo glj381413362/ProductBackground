@@ -21,17 +21,23 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.slf4j.profiler.Profiler;
+import org.slf4j.profiler.TimeInstrument;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.transaction.interceptor.TransactionAspectSupport;
 
-@Slf4j
+//@Slf4j
 @Service
 @Transactional
 public class ItemService {
 
+  /** logger */
+  private static final Logger log = LoggerFactory.getLogger(ItemService.class);
   private static List<Integer> locks = new ArrayList<Integer>();
 
   @Value("#{'${nginx.html.roots}'.split(',')}")
@@ -78,7 +84,9 @@ public class ItemService {
   }
 
   public List<Item> generateAll() {
-
+    Profiler profiler = new Profiler("CostTimeMontor");
+    profiler.setLogger(log);
+    profiler.start("selectAll");
     // 准备数据
     List<Item> list = itemMapper.selectAll();
 
@@ -87,11 +95,13 @@ public class ItemService {
     String filePath;
     Set<String> collect = list.stream().map(Item::getTemplateName).collect(Collectors.toSet());
     Map<String, Template> templateMap = new HashMap<>();
+    profiler.start("put templateMap");
     for (String tpl : collect) {
       // 获取模板
       Template t = engine.getTemplate(tpl + ".html");
       templateMap.put(tpl, t);
     }
+    profiler.start("creat html");
     for (Item item : list) {
       // 这里和分发层的hash算法保持一致，不然生成的文件同步位置有问题
       filePath = getFilePath(item.getId());
@@ -108,11 +118,14 @@ public class ItemService {
         item.setHtmlStatus("成功");
         item.setLocation(filePath + fileName);
       } catch (Exception e) {
+        log.error("item[{}]生成静态文件失败:{}", item.getId(), e);
         // 记日志
         item.setHtmlStatus("失败");
       }
       itemMapper.updateByPrimaryKeySelective(item);
     }
+    TimeInstrument timeInstrument = profiler.stop();
+    timeInstrument.print();
     return list;
   }
 
@@ -127,9 +140,10 @@ public class ItemService {
     int index = (int) (CRC32Util.CRC32Long(id) % htmlRoots.size());
     return htmlRoots.get(index);
   }
- private String getFilePath(String str) {
-   int index = (int) (CRC32Util.CRC32Long(str) % htmlRoots.size());
-   return htmlRoots.get(index);
+
+  private String getFilePath(String str) {
+    int index = (int) (CRC32Util.CRC32Long(str) % htmlRoots.size());
+    return htmlRoots.get(index);
   }
 
   // 创建系统首页 html
@@ -314,7 +328,7 @@ public class ItemService {
         kv.put("category", cate);
         // 文件写入路径
         String fileName = "list_" + cate + "_" + i + ".html";
-        String filePath = getFilePath(cate+i);
+        String filePath = getFilePath(cate + i);
         // 路径 直接能被用户访问
         File file = new File(filePath + fileName);
         // 开始渲染 输出文件
