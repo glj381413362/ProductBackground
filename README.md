@@ -55,11 +55,11 @@ http请求--->LVS--->分发层Nginx--->应用层Nginx--->Redis--->jvm cache--->m
 
 #### 一级缓存
 
-**nginx本地缓存: ** 抗的是热数据的高并发访问,这些热数据，利用 nginx 本地缓存，由于经常被访问，所以可以被锁定在 nginx 的本地缓存内，那么对这些热数据的大量访问，就直接走 nginx 就可以了，那么大量的访问，直接就可以走到 nginx 就行了，不需要走后续的各种网络开销了。
+**nginx本地缓存:**  抗的是热数据的高并发访问,这些热数据，利用 nginx 本地缓存，由于经常被访问，所以可以被锁定在 nginx 的本地缓存内，那么对这些热数据的大量访问，就直接走 nginx 就可以了，那么大量的访问，直接就可以走到 nginx 就行了，不需要走后续的各种网络开销了。
 
 #### 二级缓存
 
-**redis缓存: ** 抗的是很高的离散访问， 缓存最大量的数据和最完整的数据； 支撑高并发的访问，QPS 最高到几十万; 可用性，非常好，提供非常稳定的服务。因为 nginx 本地内存有限，只能 cache 住部分热数据，其他相对不那么热的数据，可能流量会经常走到 redis 中;
+**redis缓存:** 抗的是很高的离散访问， 缓存最大量的数据和最完整的数据； 支撑高并发的访问，QPS 最高到几十万; 可用性，非常好，提供非常稳定的服务。因为 nginx 本地内存有限，只能 cache 住部分热数据，其他相对不那么热的数据，可能流量会经常走到 redis 中;
 
 #### 三级缓存
 
@@ -680,8 +680,3 @@ httpc:close()
 
 运行：` java -DDB_URL=jdbc:mysql://mysql.server:3306/product -DDB_USER_NAME=root -DDB_PWD=840416 -DNGINX_HTML_ROOT=/usr/local/openresty/nginx/html -DJFINAL_TEMPLATES_LOCATION=/root/glj/templates`
 
-```
-java -DDB_URL=jdbc:mysql://106.13.203.37:3306/product -DDB_USER_NAME=root -DDB_PWD=840416 -DNGINX_HTML_ROOT=/usr/local/openresty/nginx/html -DJFINAL_TEMPLATES_LOCATION=/root/glj/templates
-
-java -DNGINX_HTML_ROOT1=/root/glj/html9002/ -DNGINX_HTML_ROOT2=/root/glj/html9003/ -DJFINAL_TEMPLATES_LOCATION=/root/glj/templates/ -jar product-0.0.1-SNAPSHOT.jar > product.log &
-```
